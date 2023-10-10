@@ -1,0 +1,456 @@
+[
+	
+	{
+		"title": "Analysis of algo",
+		"subject-description": "computer science",
+		"course-number": "483",
+		"section": "001",
+		"hours": "3",
+		"crn": "10614",
+		"term": "spring 2024",
+		"instructor": "Russel Katherine",
+		"meeting times": {
+			"monday": {
+				"start-time": "01:30",
+				"end-time": "3:00"
+			},
+			"wednesday": {
+				"start-time": "01:30",
+				"end-time": "3:00"
+			}
+					
+		},
+		"campus": "Fairfax"
+
+	},
+	
+	{
+		"title": "The Solar System",
+		"subject-description": "Astronomy",
+		"course-number": "111",
+		"section": "001",
+		"hours": "3",
+		"crn": "20278",
+		"term": "spring 2024",
+		"instructor": "Peter Plavchan",
+		"meeting times": {
+			"monday": {
+				"start-time": "1:30",
+				"end-time": "2:45"
+			},
+			"wednesday": {
+				"start-time": "1:30",
+				"end-time": "2:45"
+			}
+					
+		},
+		"campus": "Fairfax"
+
+	},
+	
+	{
+		"title": "Geometry",
+		"subject-description": "Mathematics",
+		"course-number": "312",
+		"section": "001",
+		"hours": "3",
+		"crn": "13755",
+		"term": "spring 2024",
+		"instructor": "Casey Blacker",
+		"meeting times": {
+			"monday": {
+				"start-time": "10:30",
+				"end-time": "11:45"
+			},
+			"wednesday": {
+				"start-time": "10:30",
+				"end-time": "11:45"
+			}
+					
+		},
+		"campus": "Fairfax"
+
+	},
+	
+	{
+		"title": "Principles of Computing",
+		"subject-description": "Computer Science",
+		"course-number": "100",
+		"section": "DL2",
+		"hours": "3",
+		"crn": "19992",
+		"term": "spring 2024",
+		"instructor": "Ana Gonzalez Hernandez",
+		"meeting times": {
+			"monday": {
+				"start-time": "1:30",
+				"end-time": "2:45"
+			},
+			"wednesday": {
+				"start-time": "1:30",
+				"end-time": "2:45"
+			}
+					
+		},
+		"campus": "Fairfax"
+
+	},
+	
+	{
+		"title": "Intro Programming, Part A",
+		"subject-description": "Computer Science",
+		"course-number": "108",
+		"section": "004",
+		"hours": "3",
+		"crn": "22736",
+		"term": "spring 2024",
+		"instructor": "Juan Luo",
+		"meeting times" : {
+			"monday": {
+				"start-time": "3:00",
+				"end-time": "4:15"
+			},
+			"wednesday": {
+				"start-time": "3:00",
+				"end-time": "4:15"
+			}
+					
+		},
+		"campus": "Fairfax"
+
+	},
+	
+	{
+		"title": "Introduction to Visual Arts",
+		"subject-description": "Art History",
+		"course-number": "101",
+		"section": "001",
+		"hours": "3",
+		"crn": "17334",
+		"term": "spring 2024",
+		"instructor": "Lisa Bauman",
+		"meeting times" : {
+			"monday": {
+				"start-time": "12:00",
+				"end-time": "1:15"
+			},
+			"wednesday": {
+				"start-time": "12:00",
+				"end-time": "1:15"
+			}
+					
+		},
+		"campus": "Fairfax"
+
+	},
+	
+	{
+		"title": "Northern Renaissance Art",
+		"subject-description": "Art History",
+		"course-number": "341",
+		"section": "001",
+		"hours": "3",
+		"crn": "21626",
+		"term": "spring 2024",
+		"instructor": "Angela Ho",
+		"meeting times" : {
+			"tuesday": {
+				"start-time": "3:00",
+				"end-time": "4:15"
+			},
+			"thursday": {
+				"start-time": "3:00",
+				"end-time": "4:15"
+			}
+					
+		},
+		"campus": "Fairfax"
+
+	},
+	
+	{
+		"title": "Business and Society",
+		"subject-description": "Business",
+		"course-number": "100",
+		"section": "004",
+		"hours": "3",
+		"crn": "10819",
+		"term": "spring 2024",
+		"instructor": "None",
+		"meeting times" : {
+			"thursday": {
+				"start-time": "7:20",
+				"end-time": "10:00"
+			}
+					
+		},
+		"campus": "Fairfax"
+
+	},
+	
+	{
+		"title": "Introduct to Criminal Justice",
+		"subject-description": "Criminology",
+		"course-number": "100",
+		"section": "001",
+		"hours": "3",
+		"crn": "13105",
+		"term": "spring 2024",
+		"instructor": "Kevin Fornshill",
+		"meeting times" : {
+			"wednesday": {
+				"start-time": "1:30",
+				"end-time": "4:10"
+			}
+					
+		},
+		"campus": "Fairfax"
+
+	},
+	
+	{
+		"title": "Emerging ID II: Viral Agents",
+		"subject-description": "Biodefense",
+		"course-number": "605",
+		"section": "DL1",
+		"hours": "3",
+		"crn": "14641",
+		"term": "spring 2024",
+		"instructor": "Ashley Grant",
+		"meeting times" : {
+			"online": {
+			}
+					
+		},
+		"campus": "online"
+
+	},
+
+	{
+		"title": "Terrorism/Weapons Mass Destruc",
+		"subject-description": "Biodefense",
+		"course-number": "725",
+		"section": "DL1",
+		"hours": "3",
+		"crn": "14649",
+		"term": "spring 2024",
+		"instructor": "Gregory Koblentz",
+		"meeting times" : {
+			"online": {
+			}
+					
+		},
+		"campus": "Online"
+
+	},
+	
+	{
+		"title": "Intro to Engineering",
+		"subject-description": "Engineering",
+		"course-number": "107",
+		"section": "001",
+		"hours": "3",
+		"crn": "10174",
+		"term": "spring 2024",
+		"instructor": "None",
+		"meeting times" : {
+			"monday": {
+				"start-time": "4:30",
+				"end-time": "5:45"
+			},
+			"wednesday": {
+				"start-time": "4:30",
+				"end-time": "5:45"
+			}
+					
+		},
+		"campus": "Fairfax"
+
+	},
+	
+	{
+		"title": "Composition Multilingl Writers",
+		"subject-description": "English",
+		"course-number": "100",
+		"section": "001",
+		"hours": "3",
+		"crn": "18592",
+		"term": "spring 2024",
+		"instructor": "James Savage",
+		"meeting times" : {
+			"tuesday": {
+				"start-time": "1:30",
+				"end-time": "3:20"
+			},
+			"thursday": {
+				"start-time": "1:30",
+				"end-time": "3:20"
+			}
+					
+		},
+		"campus": "Fairfax"
+
+	},
+	
+	{
+		"title": "Intro to Japanese I",
+		"subject-description": "Japanese",
+		"course-number": "101",
+		"section": "001",
+		"hours": "3",
+		"crn": "21752",
+		"term": "spring 2024",
+		"instructor": "Ayaka Mitsui",
+		"meeting times" : {
+			"monday": {
+				"start-time": "11:30",
+				"end-time": "12:20"
+			},
+			"wednesday": {
+				"start-time": "11:30",
+				"end-time": "12:20"
+			},
+			"friday": {
+				"start-time": "11:30",
+				"end-time": "12:20"
+			}
+					
+		},
+		"campus": "Fairfax"
+
+	},
+	
+	{
+		"title": "Elementary Spanish I",
+		"subject-description": "Spanish",
+		"course-number": "101",
+		"section": "001",
+		"hours": "3",
+		"crn": "17563",
+		"term": "spring 2024",
+		"instructor": "None",
+		"meeting times" : {
+			"monday": {
+				"start-time": "9:30",
+				"end-time": "10:20"
+			},
+			"wednesday": {
+				"start-time": "9:30",
+				"end-time": "10:20"
+			},
+			"friday": {
+				"start-time": "9:30",
+				"end-time": "10:20"
+			}
+					
+		},
+		"campus": "Fairfax"
+
+	},
+	
+	{
+		"title": "Physical Geology",
+		"subject-description": "Geology",
+		"course-number": "101",
+		"section": "001",
+		"hours": "3",
+		"crn": "17793",
+		"term": "spring 2024",
+		"instructor": "Guiseppina Kysar-Mattietti",
+		"meeting times" : {
+			"monday": {
+				"start-time": "5:55",
+				"end-time": "7:10"
+			},
+			"wednesday": {
+				"start-time": "5:55",
+				"end-time": "7:10"
+			}
+					
+		},
+		"campus": "Fairfax"
+
+	},
+	
+	{
+		"title": "Folklore & Festival Management",
+		"subject-description": "Folklore Studies",
+		"course-number": "550",
+		"section": "DL1",
+		"hours": "3",
+		"crn": "21547",
+		"term": "spring 2024",
+		"instructor": "Lisa Gilman",
+		"meeting times" : {
+			"online": {
+				"start-time": "4:30",
+				"end-time": "7:10"
+			}
+					
+		},
+		"campus": "Online"
+
+	},
+	
+	{
+		"title": "Introductio to Health Behavior",
+		"subject-description": "Health",
+		"course-number": "550",
+		"section": "DL2",
+		"hours": "3",
+		"crn": "17456",
+		"term": "spring 2024",
+		"instructor": "Sara Pappa",
+		"meeting times" : {
+			"wednesday": {
+				"start-time":"9:00",
+				"end-time": "11:45"
+			}
+					
+		},
+		"campus": "Fairfax"
+
+	},
+	
+	{
+		"title": "Intermediate Portuguese I",
+		"subject-description": "Portuguese",
+		"course-number": "201",
+		"section": "DL1",
+		"hours": "3",
+		"crn": "17574",
+		"term": "spring 2024",
+		"instructor": "Tatiana Queenan",
+		"meeting times" : {
+			"online": {
+			}
+					
+		},
+		"campus": "Online"
+
+	},
+	
+	{
+		"title": "Introduction to Game Design",
+		"subject-description": "Computer Game Design",
+		"course-number": "101",
+		"section": "DL1",
+		"hours": "3",
+		"crn": "10393",
+		"term": "spring 2024",
+		"instructor": "Theodore Prawat",
+		"meeting times" : {
+			"tuesday": {
+				"start-time": "10:30",
+				"end-time": "11:45"
+			},
+			"thursday": {
+				"start-time": "10:30",
+				"end-time": "11:45"
+			}
+					
+		},
+		"campus": "Fairfax"
+
+	}
+]
