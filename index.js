@@ -32,3 +32,41 @@ server.listen(port, () => {
 
 
 });
+
+function parseCoursesFromFile(filePath) {
+    const fileData = fs.readFileSync(filePath, 'utf8');
+
+    try {
+      const coursesData = JSON.parse(fileData);
+      const courseList = [];
+  
+      coursesData.forEach((courseData) => {
+        const {
+          title,
+          courseNumber,
+          campus,
+          section,
+          subjectDescription,
+          hours,
+          "meeting times": meetingTimes,
+          instructor
+        } = courseData;
+  
+        const meetingDays = {};
+  
+        for (const day in meetingTimes) {
+          const { "start-time": startTime, "end-time": endTime } = meetingTimes[day];
+          meetingDays[day] = { "start-time": startTime, "end-time": endTime };
+        }
+  
+        const course = new Course(title, courseNumber, campus, section, subjectDescription, hours, meetingDays, instructor);
+        courseList.push(course);
+      });
+  
+      return courseList;
+    } catch (error) {
+      console.error('Error parsing JSON:', error);
+      return [];
+    }
+}
+  

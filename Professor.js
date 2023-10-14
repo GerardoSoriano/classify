@@ -1,22 +1,28 @@
 class Professor {
-
-    /*
+    /**
     * @param {string} firstName 
     * @param {string} lastName 
-    * @param {array} classesTaught - list of classes the professor teach 
+    * @param {Map} classesTaughtAndScore - classes taught mapped to the average score for that specific class on rateMyProfessor
+    * @param {Number} rateMyProfessorScore - total score professor has on rate my professor (null if not found)
     */
-    constructor(firstName, lastName, classesTaught) {
+    constructor(firstName, lastName, classesTaughtAndScore = null, rateMyProfessorScore) {
         this._firstName = firstName;
         this._lastName = lastName;
-        this._classesTaught = classesTaught;
+        this._classesTaughtAndScore = classesTaughtAndScore !== null ?  classesTaughtAndScore : new Map();
+        this._rateMyProfessorScore = rateMyProfessorScore
     }
 
     getFirstName() { return this._firstName; }
     getLastName() { return this._lastName; }
-    getClassesTaught() {return this._classesTaught;}
+    getClassesTaughtAndScore() {return this._classesTaughtAndScore;}
 
     setFirstName(firstName) {this._firstName = firstName};
     setLastName(lastName) {this._lastName = lastName;}
-    setClassesTaught(classesTaught) {this._classesTaught = classesTaught;}
+
+    addClassTaught(classTaught, score) {this._classesTaughtAndScore.set(classTaught, score);}
+
+    clearClassesTaughtAndScore() {this._classesTaughtAndScore.clear();}
+
+    setClassesTaughtAndScore(classesTaughtAndScore) {this._classesTaught = classesTaught;}
 
 }
