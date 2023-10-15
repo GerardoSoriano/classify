@@ -13,11 +13,11 @@ const timer = require('timers/promises');
 describe('Browser', () => {
     let browserInstance = null;
     
-    beforeEach(async () => {
+    beforeAll(async () => {
         browserInstance = await browserObject.startBrowser();
     });
 
-    afterEach(() => {
+    afterAll(() => {
         browserInstance.close();
     })
 
@@ -35,13 +35,13 @@ describe('Page Controller', () => {
     jest.setTimeout(20000);
     let browserInstance = null;
     
-    beforeEach(async () => {
+    beforeAll(async () => {
         browserInstance = await browserObject.startBrowser();
         scraperController(browserInstance);
         await timer.setTimeout(7000);
     });
 
-    afterEach(() => {
+    afterAll(() => {
         browserInstance.close();
     })
 
@@ -63,7 +63,7 @@ describe('Page Scraper', () => {
     jest.setTimeout(50000);
     let browserInstance, page, courses, rand_course = null;
     
-    beforeEach(async() => {
+    beforeAll(async() => {
         browserInstance = await browserObject.startBrowser();
         page = await pageScraper.setupPage();
         courses = await pageScraper.scraper(browserInstance);
@@ -75,7 +75,7 @@ describe('Page Scraper', () => {
         await timer.setTimeout(7000);
     });
 
-    afterEach(() => {
+    afterAll(() => {
         browserInstance.close();
     });
 
