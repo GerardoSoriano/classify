@@ -119,3 +119,22 @@ function getInstructorsFromFile(filePath, callback) {
 const prof = getInstructorsFromFile('./patriotWeb_scraper/spring24.json', (instructors) => {console.log(instructors); });
 
 //console.log("its this one " + prof);
+
+
+/**
+ * 
+ * @param {map of professor to list} professorsMap 
+ * @returns 
+ */
+function sortProfessorsGivenCourse(professorsMap) {
+  const sortedList = Array.from(professorsMap.entries())
+      .map(([professor, score]) => ({
+          professor,
+          score: score !== undefined ? score : -1
+      }))
+      .sort((a, b) => b.score - a.score);
+
+  return sortedList.map(item => item.professor);
+}
+
+module.exports = { sortProfessorsGivenCourse };
