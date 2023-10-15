@@ -1,13 +1,17 @@
 class Course {
 
     /** 
+     *@param {string} instructor 
     * @param {string} title 
-    * @param {int} courseNumber
-    * @param {string} campus
-    * @param {int} section - class section
-    * @param {string} subjectDescription
-    * @param {int} hours - credit hours
-    * @param {MeetDays} meetingDays - object representing the date and time.
+    * @param {int} crn - registration number for course
+    * @param {string} dcode - department code (CS, HIST, SWE, etc)
+    * @param {int} cno - number of course (110, 211, 262, etc)
+    * @param {string} section - class section
+    * @param {string} type
+    * @param {string} days
+    * @param {string} where
+    * @param {string} date_range
+    * @param {string} schedule_type - (lecture, recitation, lab, etc)
     */
 
     /*
@@ -17,80 +21,112 @@ class Course {
     * 
     * I'm including instructor for now
     */
-    constructor(title, courseNumber, campus, section, subjectDescription, hours, meetingDays, instructor) {
-        this._title = title;
-        this._courseNumber = courseNumber;
-        this._campus = campus;
-        this._section = section;
-        this._subjectDescription = subjectDescription;
-        this._hours = hours;
-        this._meetingDays = meetingDays;
-        this._instructor = instructor;
+    constructor(instructor,title,crn,dcode,cno,section,type,time,days,where,date_range,schedule_type) {
+        this.instructor = instructor;
+        this.title = title;
+        this.crn = crn;
+        this.dcode = dcode;
+        this.cno = cno;
+        this.section = section;
+        this.type = type;
+        this.time = time;
+        this.days = days;
+        this.where = where;
+        this.date_range = date_range;
+        this.schedule_type = schedule_type;
     }
 
     // Getters
-    getTitle() {
-        return this._title;
-    }
-
-    getCourseNumber() {
-        return this._courseNumber;
-    }
-
-    getCampus() {
-        return this._campus;
-    }
-
-    getSection() {
-        return this._section;
-    }
-
-    getSubjectDescription() {
-        return this._subjectDescription;
-    }
-
-    getHours() {
-        return this._hours;
-    }
-
-    getMeetingDays() {
-        return this._meetingDays;
-    }
-
     getInstructor() {
         return this._instructor;
     }
+    getTitle() {
+        return this._title;
+    }
+    getCrn() {
+        return this._crn;
+    }
+    
+    getDcode() {
+        return this._dcode;
+    }
+    
+    getCno() {
+        return this._cno;
+    }
+    
+    getSection() {
+        return this._section;
+    }
+    
+    getType() {
+        return this._type;
+    }
+
+    getTime() {
+        return this._time;
+    }
+
+    getDays() {
+        return this._days;
+    }
+    getWhere() {
+        return this._where;
+    }
+    getDateRange() {
+        return this._date_range;
+    }
+    getScheduleType() {
+        return this._schedule_type;
+    }
 
     // Setters
-    setTitle(newTitle) {
-        this._title = newTitle;
-    }
-
-    setCourseNumber(newCourseNumber) {
-        this._courseNumber = newCourseNumber;
-    }
-
-    setCampus(newCampus) {
-        this._campus = newCampus;
-    }
-
-    setSection(newSection) {
-        this._section = newSection;
-    }
-
-    setSubjectDescription(newDescription) {
-        this._subjectDescription = newDescription;
-    }
-
-    setHours(newHours) {
-        this._hours = newHours;
-    }
-
-    setMeetingDays(newMeetingDays) {
-        this._meetingDays = newMeetingDays;
-    }
 
     setInstructor(instructor) {
-        this._instructor = instructor;
+    this._instructor = instructor;
     }
+
+    setTitle(title) {
+        this._title = title;
+    }
+    setCrn(crn) {
+        this._crn = crn;
+    }
+    
+    setDcode(dcode) {
+        this._dcode = dcode;
+    }
+    
+    setCno(cno) {
+        this._cno = cno;
+    }
+    
+    setSection(section) {
+        this._section = section;
+    }
+    
+    setType(type) {
+        this._type = type;
+    }
+    
+    setTime(time) {
+        this._time = time;
+    }
+    
+    setDays(days) {
+        this._days = days;
+    }
+    
+    setWhere(where) {
+        this._where = where;
+    }
+    
+    setDateRange(date_range) {
+        this._date_range = date_range;
+    }
+    
+    setScheduleType(schedule_type) {
+        this._schedule_type = schedule_type;
+    }
+
 }

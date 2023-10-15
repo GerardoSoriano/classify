@@ -17,7 +17,7 @@ server.listen(port, () => {
 
     
     //  read from the file asynchronously
-    const filePath = './data.json'; 
+    const filePath = './patriotWeb_scraper/spring24_formatted.json';  
 
     fs.readFile(filePath, 'utf8', (err, fileContent) => {
         if (err) {
@@ -42,24 +42,28 @@ function parseCoursesFromFile(filePath) {
   
       coursesData.forEach((courseData) => {
         const {
+          instructor,
           title,
-          courseNumber,
-          campus,
+          crn,
+          dcode,
+          cno,
           section,
-          subjectDescription,
-          hours,
-          "meeting times": meetingTimes,
-          instructor
+          type,
+          time,
+          days,
+          where,
+          date_range,
+          schedule_type
         } = courseData;
   
-        const meetingDays = {};
+        // const meetingDays = {};
   
-        for (const day in meetingTimes) {
-          const { "start-time": startTime, "end-time": endTime } = meetingTimes[day];
-          meetingDays[day] = { "start-time": startTime, "end-time": endTime };
-        }
+        // for (const day in meetingTimes) {
+        //   const { "start-time": startTime, "end-time": endTime } = meetingTimes[day];
+        //   meetingDays[day] = { "start-time": startTime, "end-time": endTime };
+        // }
   
-        const course = new Course(title, courseNumber, campus, section, subjectDescription, hours, meetingDays, instructor);
+        const course = new Course(instructor,title,crn,dcode,cno,section,type,time,days,where,date_range,schedule_type);
         courseList.push(course);
       });
   
