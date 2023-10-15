@@ -11,16 +11,6 @@
             "instructor": "Ahmed Bin Zaman (P)"
         },
         {
-            "course name": "Principles of Computing - 22735 - CS 100 - 003",
-            "type": "Class",
-            "time": "9:00 am - 10:15 am",
-            "days": "MW",
-            "where": "Blueridge Hall 129",
-            "date range": "Jan 16, 2024 - May 09, 2024",
-            "schedule type": "Lecture",
-            "instructor": "TBA"
-        },
-        {
             "course name": "Principles of Computing - 19992 - CS 100 - DL2",
             "type": "Class",
             "time": "1:30 pm - 2:45 pm",
@@ -376,16 +366,6 @@
             "time": "10:30 am - 11:20 am",
             "days": "F",
             "where": "James Buchanan Hall D023",
-            "date range": "Jan 16, 2024 - May 09, 2024",
-            "schedule type": "Laboratory",
-            "instructor": "TBA"
-        },
-        {
-            "course name": "Lab for Lecture 003 - 14189 - CS 211 - 207",
-            "type": "Class",
-            "time": "11:30 am - 12:20 pm",
-            "days": "F",
-            "where": "Horizon Hall 1012",
             "date range": "Jan 16, 2024 - May 09, 2024",
             "schedule type": "Laboratory",
             "instructor": "TBA"

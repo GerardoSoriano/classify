@@ -1,9 +1,13 @@
 const scraperObject = {
     url: 'https://patriotweb.gmu.edu/pls/prod/bwckschd.p_disp_dyn_sched',
 
-    async scraper(browser) {
+    myTest: function() {
+      console.log("Testing...");  
+    },
+
+    async setupPage() {
         let page = await browser.newPage();
-        console.log('Accessing %s...', this.url);
+        console.log('Accessing ' + this.url);
         await page.goto(this.url, { waitUntil: "domcontentloaded", });
 
         // Select "Spring 2024" term
@@ -16,7 +20,7 @@ const scraperObject = {
 
         // Update new page instance
         await page.waitForNavigation();
-        console.log(page.url());
+        console.log('Accessing ' + page.url());
 
         // Scrape CS courses (test run; hardcoded) + go to next page
         await page.select('#subj_id', 'CS');
@@ -24,48 +28,14 @@ const scraperObject = {
         await submit_button.click();
         await page.waitForNavigation();
 
-        /*
-        // Get dept data
-        const courses = await page.evaluate(() => {
-            const courseList = document.querySelector(".pagebodydiv");
-            const courseName = courseList.querySelector(".ddtitle > a").innerText;
+        return page;
+    },
 
-            const termDesc = courseList.querySelectorAll(".dddefault");
-            
-            for (i = 1; i < termDesc.length; i += 2) {    // check the first class only; skip "Associated Term" block
-                var currDesc = termDesc[i];
-                var table = currDesc.querySelector(".datadisplaytable > tbody");
-                var trs = Array.from(table.querySelectorAll("tr"));
-                //return trs.map(tr => tr.innerText);
-
-                // Get info from each row; skip headers
-                for (j = 1; j < trs.length; j++) {
-                    const entries = trs[j].querySelectorAll(".dddefault");
-                    const type = entries[0].innerText;
-                    const time = entries[1].innerText;
-                    const days = entries[2].innerText;
-                    const where = entries[3].innerText;
-                    const dateRange = entries[4].innerText;
-                    const scheduleType = entries[5].innerText;
-                    const instructor = entries[6].innerText;
-                    return { courseName, type, time, days, where, dateRange, scheduleType, instructor };
-                }
-                //return table.innerHTML;
-                var table_entries = table.querySelectorAll(".dddefault");
-            }
-
-            //const table = description.querySelector(".datadisplaytable > tbody");
-            //const table_entries = table.querySelectorAll(".dddefault");
-
-
-            //return courseName;
-            return termDesc;
-        });
-
-        */
+    async scraper(browser) {
+       let page = await scraperObject.setupPage();
 
         // Get dept data
-        const courses = await page.evaluate(() => {
+        const courses = await page.evaluate((scraperObject) => {
             const dept = document.querySelector(".pagebodydiv");
             const courseList = dept.querySelectorAll(".ddtitle > a");
             const termDesc = dept.querySelectorAll("div.pagebodydiv > table.datadisplaytable > tbody > tr > .dddefault");
@@ -84,6 +54,8 @@ const scraperObject = {
                 var trs = Array.from(table.querySelectorAll("tr"));
 
                 // Get info from each row; skip headers
+                // Only returns info from the 2nd row (if multiple rows are needed, use array)
+                // Not necessary right now
                 for (j = 1; j < trs.length; j++) {
                     const dataObj = {};
                     const entries = Array.from(trs[j].querySelectorAll(".dddefault"));
