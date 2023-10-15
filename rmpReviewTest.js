@@ -4,14 +4,11 @@ const { describe, it, expect } = require('@jest/globals');
 describe('rmpReview', () => {
     let rmpReview;
 
-    beforeEach(() => {
-        // Create a new instance of rmpReview before each test
-        rmpReview = new rmpReview();
 
-      });
       //tests for getProfessorURLFromRMP
-      it('should provide a valid URL', () => {
-        expect(rmpReview.getProfessorURLFromRMP('Dana Richards').toBe("https://www.ratemyprofessors.com/professor/2760618"));
+      it('should provide a valid URL', async () => {
+        const result = await rmpReview.getProfessorURLFromRMP('Dana Richards');
+        expect(result).toBe("https://www.ratemyprofessors.com/professor/417968"));
       });
 
       it('should provide an invalid URL', () => {

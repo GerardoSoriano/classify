@@ -11,11 +11,12 @@ const puppeteer = require("puppeteer");
  */
 async function getProfessorURLFromRMP(professorName) {
   const browser = await puppeteer.launch({
-    headless: "new",
+    headless: "false",
     args: ["--disable-popup-blocking"],
   });
   const page = await browser.newPage();
-  await page.goto("https://www.ratemyprofessors.com/school/352", { timeout: 50000 });
+//   await page.setJavaScriptEnabled(false);
+  await page.goto("https://www.ratemyprofessors.com/school/352", { timeout: 60000 });
 
   const inputElement = await page.$(
     ".Search__DebouncedSearchInput-sc-10lefvq-1"
@@ -172,17 +173,20 @@ async function getReviewForProfessor(professorName) {
 //     console.error("Error fetching reviews:", error);
 //   });
 
-getReviewForProfessor("Tamara Maddox")
-  .then((reviews) => {
-    console.log("length: " + reviews.length);
-    reviews.forEach(function (review) {
-      console.log(reviews);
-    });
-  })
-  .catch((error) => {
-    console.error("Error fetching reviews:", error.stack);
-    // error.page.screenshot({path: 'error_screenshot.png'});
-  });
+
+console.log(getProfessorURLFromRMP('Dana Richards'));
+
+// getReviewForProfessor("Tamara Maddox")
+//   .then((reviews) => {
+//     console.log("length: " + reviews.length);
+//     reviews.forEach(function (review) {
+//       console.log(reviews);
+//     });
+//   })
+//   .catch((error) => {
+//     console.error("Error fetching reviews:", error.stack);
+//     // error.page.screenshot({path: 'error_screenshot.png'});
+//   });
 
 // getProfessorURLFromRMP("Dana Richards");
 
