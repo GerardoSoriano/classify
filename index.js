@@ -17,13 +17,8 @@ const filePath = './data.json';
 //     console.log(`Server is running on port ${port}`);
 
     
-<<<<<<< HEAD
-    //  read from the file asynchronously
-    const filePath = './patriotWeb_scraper/spring24_formatted.json';  
-=======
 //     //  read from the file asynchronously
-//     const filePath = './data.json'; 
->>>>>>> rmpReviews
+//     const filePath = './patriotWeb_scraper/spring24_formatted.json';  
 
 //     fs.readFile(filePath, 'utf8', (err, fileContent) => {
 //         if (err) {
