@@ -26,3 +26,5 @@ class Professor {
     setClassesTaughtAndScore(classesTaughtAndScore) {this._classesTaught = classesTaught;}
 
 }
+
+module.exports = Professor;
