@@ -1,1 +1,1754 @@
-{"CS":[{"course name":"Principles of Computing - 16565 - CS 100 - 001","type":"Class","time":"3:00 pm - 4:15 pm","days":"MW","where":"James Buchanan Hall D023","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Ahmed Bin Zaman (P)"},{"course name":"Principles of Computing - 19992 - CS 100 - DL2","type":"Class","time":"1:30 pm - 2:45 pm","days":"MW","where":"ON LINE","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Ana Loreto Gonzalez Hernandez (P)"},{"course name":"Intro Programming, Part A - 18300 - CS 108 - 001","type":"Class","time":"9:00 am - 10:15 am","days":"MW","where":"Horizon Hall 2009","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Sara-Lynn Gopalkrishna (P)"},{"course name":"Intro Programming, Part A - 19763 - CS 108 - 002","type":"Class","time":"12:00 pm - 1:15 pm","days":"MW","where":"James Buchanan Hall D023","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Sara-Lynn Gopalkrishna (P)"},{"course name":"Intro Programming, Part A - 22736 - CS 108 - 004","type":"Class","time":"3:00 pm - 4:15 pm","days":"TR","where":"Horizon Hall 2017","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Binqian Yin (P)"},{"course name":"Intro Programming, Part B - 18302 - CS 109 - 001","type":"Class","time":"9:00 am - 10:15 am","days":"TR","where":"Exploratory Hall L102","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Parastoo Kamranfar (P)"},{"course name":"Intro Programming, Part B - 21889 - CS 109 - 002","type":"Class","time":"12:00 pm - 1:15 pm","days":"TR","where":"James Buchanan Hall D023","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Shahnaz Kamberi (P)"},{"course name":"Lab for Any Lecture - 21890 - CS 109 - 201","type":"Class","time":"9:30 am - 10:20 am","days":"F","where":"Exploratory Hall L102","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Laboratory","instructor":"TBA"},{"course name":"Lab for Any Lecture - 21891 - CS 109 - 202","type":"Class","time":"10:30 am - 11:20 am","days":"F","where":"Horizon Hall 2008","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Laboratory","instructor":"TBA"},{"course name":"Essentials of Computer Science - 15875 - CS 110 - 002","type":"Class","time":"3:00 pm - 4:15 pm","days":"TR","where":"Lecture Hall 1","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Socrates Dimitriadis (P)"},{"course name":"Essentials of Computer Science - 22430 - CS 110 - 003","type":"Class","time":"3:00 pm - 4:15 pm","days":"MW","where":"Innovation Hall 103","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Tamara A Maddox (P)"},{"course name":"Intro Computer Programming - 12338 - CS 112 - 001","type":"Class","time":"3:00 pm - 4:15 pm","days":"TR","where":"Enterprise Hall 80","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Shahnaz Kamberi (P)"},{"course name":"Intro Computer Programming - 14176 - CS 112 - 002","type":"Class","time":"12:00 pm - 1:15 pm","days":"MW","where":"Exploratory Hall L004","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Radu Negulescu (P)"},{"course name":"Intro Computer Programming - 12339 - CS 112 - 003","type":"Class","time":"1:30 pm - 2:45 pm","days":"MW","where":"Exploratory Hall L004","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Radu Negulescu (P)"},{"course name":"Intro Computer Programming - 18305 - CS 112 - 004","type":"Class","time":"9:00 am - 10:15 am","days":"TR","where":"Innovation Hall 103","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Sara-Lynn Gopalkrishna (P)"},{"course name":"Intro Computer Programming - 15876 - CS 112 - 005","type":"Class","time":"1:30 pm - 2:45 pm","days":"TR","where":"Lecture Hall 1","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Laboratory","instructor":"Parastoo Kamranfar (P)"},{"course name":"Lab for Lecture 001 - 14177 - CS 112 - 201","type":"Class","time":"1:30 pm - 2:20 pm","days":"F","where":"Horizon Hall 2008","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Laboratory","instructor":"TBA"},{"course name":"Lab for Lecture 001 - 14178 - CS 112 - 202","type":"Class","time":"2:30 pm - 3:20 pm","days":"F","where":"Horizon Hall 2008","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Laboratory","instructor":"TBA"},{"course name":"Lab for Lecture 001 - 14180 - CS 112 - 203","type":"Class","time":"3:30 pm - 4:20 pm","days":"F","where":"Horizon Hall 2008","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Laboratory","instructor":"TBA"},{"course name":"Lab for Lecture 002 - 14181 - CS 112 - 204","type":"Class","time":"12:30 pm - 1:20 pm","days":"R","where":"Horizon Hall 3012","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Laboratory","instructor":"TBA"},{"course name":"Lab for Lecture 002 - 21892 - CS 112 - 205","type":"Class","time":"1:30 pm - 2:20 pm","days":"R","where":"Exploratory Hall L102","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Laboratory","instructor":"TBA"},{"course name":"Lab for Lecture 003 - 14182 - CS 112 - 206","type":"Class","time":"2:30 pm - 3:20 pm","days":"R","where":"Exploratory Hall L102","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Laboratory","instructor":"TBA"},{"course name":"Lab for Lecture 003 - 14183 - CS 112 - 207","type":"Class","time":"3:30 pm - 4:20 pm","days":"R","where":"Exploratory Hall L102","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Laboratory","instructor":"TBA"},{"course name":"Lab for Lecture 004 - 14184 - CS 112 - 208","type":"Class","time":"8:30 am - 9:20 am","days":"F","where":"Horizon Hall 1012","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Laboratory","instructor":"TBA"},{"course name":"Lab for Lecture 004 - 14185 - CS 112 - 209","type":"Class","time":"9:30 am - 10:20 am","days":"F","where":"Horizon Hall 1012","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Laboratory","instructor":"TBA"},{"course name":"Lab for Lecture 005 - 15877 - CS 112 - 211","type":"Class","time":"11:30 am - 12:20 pm","days":"F","where":"Horizon Hall 2008","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Laboratory","instructor":"TBA"},{"course name":"Lab for Lecture 005 - 15878 - CS 112 - 212","type":"Class","time":"12:30 pm - 1:20 pm","days":"F","where":"Horizon Hall 2008","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Laboratory","instructor":"TBA"},{"course name":"Object-Oriented Programming - 12341 - CS 211 - 001","type":"Class","time":"1:30 pm - 2:45 pm","days":"MW","where":"Innovation Hall 105","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Brian Hrolenok (P)"},{"course name":"Object-Oriented Programming - 12342 - CS 211 - 002","type":"Class","time":"3:00 pm - 4:15 pm","days":"MW","where":"Lecture Hall 1","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Brian Hrolenok (P)"},{"course name":"Object-Oriented Programming - 17139 - CS 211 - 003","type":"Class","time":"9:00 am - 10:15 am","days":"TR","where":"Lecture Hall 1","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Laboratory","instructor":"David Ignacio Gonzalez Samudio (P)"},{"course name":"Object-Oriented Programming - 18306 - CS 211 - 004","type":"Class","time":"1:30 pm - 2:45 pm","days":"TR","where":"Innovation Hall 105","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"David Ignacio Gonzalez Samudio (P)"},{"course name":"Lab for Lecture 001 - 12343 - CS 211 - 201","type":"Class","time":"10:30 am - 11:20 am","days":"R","where":"Horizon Hall 2009","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Laboratory","instructor":"TBA"},{"course name":"Lab for Lecture 001 - 12344 - CS 211 - 202","type":"Class","time":"9:30 am - 10:20 am","days":"R","where":"James Buchanan Hall D023","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Laboratory","instructor":"TBA"},{"course name":"Lab for Lecture 002 - 12345 - CS 211 - 203","type":"Class","time":"12:30 pm - 1:20 pm","days":"R","where":"Horizon Hall 1014","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Laboratory","instructor":"TBA"},{"course name":"Lab for Lecture 002 - 12346 - CS 211 - 204","type":"Class","time":"1:30 pm - 2:20 pm","days":"R","where":"James Buchanan Hall D023","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Laboratory","instructor":"TBA"},{"course name":"Lab for Lecture 003 - 12347 - CS 211 - 205","type":"Class","time":"9:30 am - 10:20 am","days":"F","where":"Horizon Hall 2008","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Laboratory","instructor":"TBA"},{"course name":"Lab for Lecture 003 - 14188 - CS 211 - 206","type":"Class","time":"10:30 am - 11:20 am","days":"F","where":"James Buchanan Hall D023","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Laboratory","instructor":"TBA"},{"course name":"Lab for Lecture 004 - 12349 - CS 211 - 208","type":"Class","time":"12:30 pm - 1:20 pm","days":"F","where":"James Buchanan Hall D023","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Laboratory","instructor":"TBA"},{"course name":"Lab for Lecture 004 - 14192 - CS 211 - 209","type":"Class","time":"1:30 pm - 2:20 pm","days":"F","where":"Exploratory Hall L102","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Laboratory","instructor":"TBA"},{"course name":"Honors Lab for Lecture H01 - 14093 - CS 211 - 2H4","type":"Class","time":"1:30 pm - 2:20 pm","days":"R","where":"James Buchanan Hall D023","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Laboratory","instructor":"TBA"},{"course name":"Object-Oriented Programming - 12355 - CS 211 - H02","type":"Class","time":"3:00 pm - 4:15 pm","days":"MW","where":"Lecture Hall 1","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Brian Hrolenok (P)"},{"course name":"Computer Program for Engineers - 10612 - CS 222 - 001","type":"Class","time":"9:00 am - 10:15 am","days":"MW","where":"East 201","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"John E Otten (P)"},{"course name":"Computer Program for Engineers - 22738 - CS 222 - 002","type":"Class","time":"3:00 pm - 4:15 pm","days":"MW","where":"Horizon Hall 1010","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"TBA"},{"course name":"Intro to Low-level Programming - 18307 - CS 262 - 001","type":"Class","time":"9:00 am - 10:15 am","days":"TR","where":"Exploratory Hall L004","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Hamza Mughal (P)"},{"course name":"Intro to Low-level Programming - 12358 - CS 262 - 002","type":"Class","time":"12:00 pm - 1:15 pm","days":"TR","where":"Innovation Hall 105","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Ana Loreto Gonzalez Hernandez (P)"},{"course name":"Intro to Low-level Programming - 13511 - CS 262 - 003","type":"Class","time":"3:00 pm - 4:15 pm","days":"TR","where":"Exploratory Hall L004","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Ana Loreto Gonzalez Hernandez (P)"},{"course name":"Intro to Low-level Programming - 22891 - CS 262 - 005","type":"Class","time":"3:00 pm - 4:15 pm","days":"MW","where":"Horizon Hall 2009","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Kevin Michael Andrea (P)"},{"course name":"Lab for Lecture 001 - 18312 - CS 262 - 201","type":"Class","time":"9:30 am - 10:20 am","days":"F","where":"James Buchanan Hall D023","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Laboratory","instructor":"TBA"},{"course name":"Lab for Lecture 001 - 18309 - CS 262 - 202","type":"Class","time":"10:30 am - 11:20 am","days":"F","where":"Exploratory Hall L102","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Laboratory","instructor":"TBA"},{"course name":"Lab for Lecture 002 - 18311 - CS 262 - 203","type":"Class","time":"11:30 am - 12:20 pm","days":"F","where":"James Buchanan Hall D023","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Laboratory","instructor":"TBA"},{"course name":"Lab for Lecture 002 - 12361 - CS 262 - 204","type":"Class","time":"12:30 pm - 1:20 pm","days":"F","where":"Exploratory Hall L102","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Laboratory","instructor":"TBA"},{"course name":"Lab for Lecture 003 - 14194 - CS 262 - 205","type":"Class","time":"1:30 pm - 2:20 pm","days":"F","where":"James Buchanan Hall D023","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Laboratory","instructor":"TBA"},{"course name":"Lab for Lecture 003 - 14195 - CS 262 - 206","type":"Class","time":"2:30 pm - 3:20 pm","days":"F","where":"James Buchanan Hall D023","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Laboratory","instructor":"TBA"},{"course name":"Lab for Lecture 005 - 22894 - CS 262 - 207","type":"Class","time":"3:30 pm - 4:20 pm","days":"F","where":"James Buchanan Hall D003","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Laboratory","instructor":"TBA"},{"course name":"Lab for Lecture 005 - 22895 - CS 262 - 208","type":"Class","time":"8:30 am - 9:20 am","days":"F","where":"James Buchanan Hall D023","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Laboratory","instructor":"TBA"},{"course name":"Synt Ethics/Law for Comp Profe - 13779 - CS 306 - 001","type":"Class","time":"9:00 am - 10:15 am","days":"MW","where":"Innovation Hall 215G","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Tamara A Maddox (P)"},{"course name":"Synt Ethics/Law for Comp Profe - 21894 - CS 306 - 002","type":"Class","time":"12:00 pm - 1:15 pm","days":"MW","where":"Horizon Hall 4008","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Tamara A Maddox (P)"},{"course name":"Synt Ethics/Law for Comp Profe - 10232 - CS 306 - 003","type":"Class","time":"1:30 pm - 2:45 pm","days":"MW","where":"Horizon Hall 3012","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"John E Otten (P)"},{"course name":"Synt Ethics/Law for Comp Profe - 10454 - CS 306 - 004","type":"Class","time":"3:00 pm - 4:15 pm","days":"MW","where":"Peterson Hall 1105","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"John E Otten (P)"},{"course name":"Synt Ethics/Law for Comp Profe - 14765 - CS 306 - 005","type":"Class","time":"9:00 am - 10:15 am","days":"TR","where":"Thompson Hall 2022","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"TBA"},{"course name":"Synt Ethics/Law for Comp Profe - 13015 - CS 306 - 006","type":"Class","time":"10:30 am - 11:45 am","days":"TR","where":"Horizon Hall 4010","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Michael W Tompkins (P)"},{"course name":"Synt Ethics/Law for Comp Profe - 19997 - CS 306 - 007","type":"Class","time":"1:30 pm - 4:10 pm","days":"W","where":"Peterson Hall 2413","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Fred W Geldon (P)"},{"course name":"Synt Ethics/Law for Comp Profe - 22353 - CS 306 - 008","type":"Class","time":"4:30 pm - 5:45 pm","days":"TR","where":"Enterprise Hall 174","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"TBA"},{"course name":"Data Structures - 10167 - CS 310 - 001","type":"Class","time":"9:00 am - 10:15 am","days":"MW","where":"Exploratory Hall L004","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Yutao Zhong (P)"},{"course name":"Data Structures - 19696 - CS 310 - 002","type":"Class","time":"3:00 pm - 4:15 pm","days":"MW","where":"Enterprise Hall 178","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Yutao Zhong (P)"},{"course name":"Data Structures - 19708 - CS 310 - 003","type":"Class","time":"9:00 am - 10:15 am","days":"TR","where":"Horizon Hall 2014","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Yutao Zhong (P)"},{"course name":"Data Structures - 13017 - CS 310 - 004","type":"Class","time":"10:30 am - 11:45 am","days":"TR","where":"Innovation Hall 105","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Socrates Dimitriadis (P)"},{"course name":"Data Structures - 22896 - CS 310 - 005","type":"Class","time":"4:30 pm - 5:45 pm","days":"MW","where":"Lecture Hall 1","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Socrates Dimitriadis (P)"},{"course name":"Software Engineering - 19764 - CS 321 - 001","type":"Class","time":"1:30 pm - 2:45 pm","days":"MW","where":"Innovation Hall 206","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Wassim Masri (P)"},{"course name":"Software Engineering - 10512 - CS 321 - 002","type":"Class","time":"12:00 pm - 1:15 pm","days":"MW","where":"Innovation Hall 215G","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Wassim Masri (P)"},{"course name":"Software Engineering - 13016 - CS 321 - 004","type":"Class","time":"9:00 am - 10:15 am","days":"TR","where":"Thompson Hall 2021","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Michael S Reep (P)"},{"course name":"Software Engineering - 13512 - CS 321 - 005","type":"Class","time":"10:30 am - 11:45 am","days":"TR","where":"Innovation Hall 215G","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Shvetha Soundararajan (P)"},{"course name":"Software Engineering - 15049 - CS 321 - 006","type":"Class","time":"12:00 pm - 1:15 pm","days":"TR","where":"Innovation Hall 215G","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Shvetha Soundararajan (P)"},{"course name":"Software Engineering - 21895 - CS 321 - 007","type":"Class","time":"1:30 pm - 2:45 pm","days":"TR","where":"Innovation Hall 215G","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Shvetha Soundararajan (P)"},{"course name":"Software Engineering - 22900 - CS 321 - 008","type":"Class","time":"1:30 pm - 2:45 pm","days":"TR","where":"Peterson Hall 1105","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Michael S Reep (P)"},{"course name":"Formal Methods and Models - 10168 - CS 330 - 001","type":"Class","time":"3:00 pm - 4:15 pm","days":"MW","where":"Nguyen Engineering Building 1101","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Foteini Baldimtsi (P)"},{"course name":"Formal Methods and Models - 10452 - CS 330 - 002","type":"Class","time":"9:00 am - 10:15 am","days":"TR","where":"Enterprise Hall 80","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Ivan Avramovic (P)"},{"course name":"Formal Methods and Models - 12619 - CS 330 - 003","type":"Class","time":"1:30 pm - 2:45 pm","days":"MW","where":"Sandbridge Hall 107","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Ahmed Bin Zaman (P)"},{"course name":"Formal Methods and Models - 20883 - CS 330 - 004","type":"Class","time":"1:30 pm - 2:45 pm","days":"TR","where":"Horizon Hall 2014","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Ahmed Bin Zaman (P)"},{"course name":"Formal Methods and Models - 22734 - CS 330 - 005","type":"Class","time":"10:30 am - 11:45 am","days":"TR","where":"Horizon Hall 2008","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Ivan Avramovic (P)"},{"course name":"Visual Computing - 22703 - CS 351 - 002","type":"Class","time":"1:30 pm - 2:45 pm","days":"MW","where":"Arlington: Van Metre Hall 308","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Lap Fai Yu (P)"},{"course name":"Computer Systems and Programm - 10169 - CS 367 - 001","type":"Class","time":"1:30 pm - 2:45 pm","days":"MW","where":"Horizon Hall 1014","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Hamza Mughal (P)"},{"course name":"Computer Systems and Programm - 10251 - CS 367 - 002","type":"Class","time":"3:00 pm - 4:15 pm","days":"MW","where":"Horizon Hall 2016","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Hamza Mughal (P)"},{"course name":"Computer Systems and Programm - 12587 - CS 367 - 003","type":"Class","time":"10:30 am - 11:45 am","days":"TR","where":"Horizon Hall 2016","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Kevin Michael Andrea (P)"},{"course name":"Computer Systems and Programm - 21896 - CS 367 - 004","type":"Class","time":"9:00 am - 10:15 am","days":"TR","where":"Horizon Hall 2009","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Kevin Michael Andrea (P)"},{"course name":"Recitation for Lecture 001-004 - 12598 - CS 367 - 301","type":"Class","time":"9:30 am - 10:20 am","days":"F","where":"Horizon Hall 1008","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Recitation","instructor":"TBA"},{"course name":"Recitation for Lecture 001-004 - 12599 - CS 367 - 302","type":"Class","time":"10:30 am - 11:20 am","days":"F","where":"Horizon Hall 1008","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Recitation","instructor":"TBA"},{"course name":"Recitation for Lecture 001-004 - 12600 - CS 367 - 303","type":"Class","time":"11:30 am - 12:20 pm","days":"F","where":"Horizon Hall 1008","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Recitation","instructor":"TBA"},{"course name":"Recitation for Lecture 001-004 - 12601 - CS 367 - 304","type":"Class","time":"12:30 pm - 1:20 pm","days":"F","where":"Horizon Hall 1008","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Recitation","instructor":"TBA"},{"course name":"Recitation for Lecture 001-004 - 12602 - CS 367 - 305","type":"Class","time":"1:30 pm - 2:20 pm","days":"F","where":"Horizon Hall 1008","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Recitation","instructor":"TBA"},{"course name":"Recitation for Lecture 001-004 - 12603 - CS 367 - 306","type":"Class","time":"2:30 pm - 3:20 pm","days":"F","where":"Horizon Hall 1008","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Recitation","instructor":"TBA"},{"course name":"Recitation for Lecture 001-004 - 12945 - CS 367 - 307","type":"Class","time":"3:30 pm - 4:20 pm","days":"F","where":"Horizon Hall 1008","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"TBA"},{"course name":"Advanced Programming Lab - 22701 - CS 391 - 201","type":"Class","time":"3:00 pm - 4:15 pm","days":"R","where":"West 1008","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Laboratory","instructor":"Brian Hrolenok (P)"},{"course name":"Game Programming II - 22702 - CS 426 - 002","type":"Class","time":"1:30 pm - 4:10 pm","days":"M","where":"Arlington: Van Metre Hall 210","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Yotam Gingold (P)"},{"course name":"Database Concepts - 13014 - CS 450 - 001","type":"Class","time":"1:30 pm - 2:45 pm","days":"TR","where":"Blueridge Hall 129","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Ping Deng (P)"},{"course name":"Database Concepts - 20003 - CS 450 - 003","type":"Class","time":"12:00 pm - 1:15 pm","days":"TR","where":"Horizon Hall 2016","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Ping Deng (P)"},{"course name":"Database Concepts - 21906 - CS 450 - 004","type":"Class","time":"10:30 am - 1:10 pm","days":"M","where":"Arlington: Van Metre Hall 111","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Ping Deng (P)"},{"course name":"Database Concepts - 22699 - CS 450 - 005","type":"Class","time":"1:30 pm - 2:45 pm","days":"MW","where":"Horizon Hall 2009","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Wassim Itani (P)"},{"course name":"Computer Graphics - 15880 - CS 451 - 001","type":"Class","time":"3:00 pm - 4:15 pm","days":"TR","where":"Nguyen Engineering Building 1101","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Jinwei Ye (P)"},{"course name":"Comp Communications/Networking - 10783 - CS 455 - 001","type":"Class","time":"12:00 pm - 1:15 pm","days":"MW","where":"Innovation Hall 132","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Eric Osterweil (P)"},{"course name":"Comp Communications/Networking - 21897 - CS 455 - 002","type":"Class","time":"3:00 pm - 4:15 pm","days":"MW","where":"Exploratory Hall L004","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Sapna Gambhir (P)"},{"course name":"Comp Communications/Networking - 22906 - CS 455 - 005","type":"Class","time":"4:30 pm - 7:10 pm","days":"W","where":"Innovation Hall 105","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Parth Pathak (P)"},{"course name":"Comparative Programming Langua - 10451 - CS 463 - 001","type":"Class","time":"1:30 pm - 2:45 pm","days":"TR","where":"East 201","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Mark Huntington Snyder (P)"},{"course name":"Computer Systems Architecture - 14198 - CS 465 - 001","type":"Class","time":"10:30 am - 11:45 am","days":"TR","where":"Exploratory Hall L102","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Radu Negulescu (P)"},{"course name":"Secure Programming and Systems - 15881 - CS 468 - 001","type":"Class","time":"12:00 pm - 1:15 pm","days":"MW","where":"Horizon Hall 2014","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Maha Shamseddine (P)"},{"course name":"Secure Programming and Systems - 18313 - CS 468 - 002","type":"Class","time":"1:30 pm - 2:45 pm","days":"MW","where":"Exploratory Hall L102","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Maha Shamseddine (P)"},{"course name":"Operating Systems - 10170 - CS 471 - 001","type":"Class","time":"3:00 pm - 4:15 pm","days":"MW","where":"Exploratory Hall L102","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Hakan Aydin (P)"},{"course name":"Operating Systems - 10762 - CS 471 - 002","type":"Class","time":"9:00 am - 10:15 am","days":"TR","where":"Merten Hall 1200","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Sapna Gambhir (P)"},{"course name":"Operating Systems - 19649 - CS 471 - 004","type":"Class","time":"3:00 pm - 4:15 pm","days":"TR","where":"Horizon Hall 2009","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Sapna Gambhir (P)"},{"course name":"Operating Systems - 22440 - CS 471 - 005","type":"Class","time":"10:30 am - 1:10 pm","days":"F","where":"Innovation Hall 132","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Songqing Chen (P)"},{"course name":"Concurrent and Distrib Systems - 22408 - CS 475 - 001","type":"Class","time":"1:30 pm - 2:45 pm","days":"TR","where":"Krug Hall 242","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Sanjeev K Setia (P)"},{"course name":"Mobile Application Development - 22684 - CS 477 - 001","type":"Class","time":"4:30 pm - 7:10 pm","days":"M","where":"Exploratory Hall L102","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Elizabeth L White (P)"},{"course name":"Intro Artificial Intelligence - 19359 - CS 480 - 001","type":"Class","time":"10:30 am - 11:45 am","days":"TR","where":"East 201","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Brian Hrolenok (P)"},{"course name":"Intro Artificial Intelligence - 22737 - CS 480 - DL2","type":"Class","time":"10:30 am - 11:45 am","days":"MW","where":"ON LINE","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Gheorghe D Tecuci (P)"},{"course name":"Computer Vision - 14200 - CS 482 - 001","type":"Class","time":"12:00 pm - 1:15 pm","days":"MW","where":"Horizon Hall 1014","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Gregory Joseph Stein (P)"},{"course name":"Analysis of Algorithms - 10614 - CS 483 - 001","type":"Class","time":"1:30 pm - 2:45 pm","days":"MW","where":"Horizon Hall 2016","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Katherine E Russell (P)"},{"course name":"Analysis of Algorithms - 10171 - CS 483 - 002","type":"Class","time":"3:00 pm - 4:15 pm","days":"MW","where":"Music/Theater Building 1005","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Katherine E Russell (P)"},{"course name":"Analysis of Algorithms - 15882 - CS 483 - 003","type":"Class","time":"12:00 pm - 1:15 pm","days":"TR","where":"Exploratory Hall L102","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Dana S Richards (P)"},{"course name":"Analysis of Algorithms - 21898 - CS 483 - 004","type":"Class","time":"1:30 pm - 2:45 pm","days":"TR","where":"Nguyen Engineering Building 1101","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Dana S Richards (P)"},{"course name":"Data Mining - 15894 - CS 484 - 001","type":"Class","time":"1:30 pm - 2:45 pm","days":"TR","where":"Exploratory Hall L003","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Jessica Lin (P)"},{"course name":"Data Mining - 10893 - CS 484 - 002","type":"Class","time":"3:00 pm - 4:15 pm","days":"TR","where":"Horizon Hall 2016","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Jessica Lin (P)"},{"course name":"Introduction to Cryptography - 19884 - CS 487 - 001","type":"Class","time":"4:30 pm - 7:10 pm","days":"T","where":"Innovation Hall 206","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Giuseppe Ateniese (P)"},{"course name":"Industry-Spons Senr Des Proj - 12604 - CS 491 - 001","type":"Class","time":"1:30 pm - 4:10 pm","days":"F","where":"Horizon Hall 3008","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Robert L, Bailey (P)"},{"course name":"Security Laboratory - 14201 - CS 499 - 001","type":"Class","time":"7:20 pm - 10:00 pm","days":"M","where":"Arlington: Van Metre Hall 308","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lec/Sem #2","instructor":"Paul Seymer (P)"},{"course name":"Blockchains & Cryptofinance - 22700 - CS 499 - 002","type":"Class MM 15","time":"3:00 pm - 4:15 pm","days":"MW","where":"Innovation Hall 204","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lec/Sem #3","instructor":"Foteini Baldimtsi (P)"},{"course name":"Quantum Algorithms - 22739 - CS 499 - 003","type":"Class","time":"5:55 pm - 7:10 pm","days":"MW","where":"Exploratory Hall 4106","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Michael Jarret Baume (P)"},{"course name":"Principles Data Managmt/Mining - 12703 - CS 504 - 002","type":"Class","time":"4:30 pm - 7:10 pm","days":"T","where":"Exploratory Hall L004","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Binqian Yin (P)"},{"course name":"Principles Data Managmt/Mining - 10811 - CS 504 - 003","type":"Class","time":"4:30 pm - 7:10 pm","days":"M","where":"Innovation Hall 103","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Binqian Yin (P)"},{"course name":"Principles Data Managmt/Mining - 19886 - CS 504 - DL3","type":"Class","time":"TBA","days":" ","where":"ON LINE","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"TBA"},{"course name":"Principles Data Managmt/Mining - 20007 - CS 504 - DL4","type":"Class","time":"TBA","days":" ","where":"ON LINE","date range":"Mar 11, 2024 - May 05, 2024","schedule type":"Lecture","instructor":"Isaac K Gang (P)"},{"course name":"Mathematical Foundations of CS - 10836 - CS 530 - 001","type":"Class","time":"7:20 pm - 10:00 pm","days":"W","where":"Lecture Hall 1","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Mahendra H Panagoda (P)"},{"course name":"Mathematical Foundations of CS - 17231 - CS 530 - DL1","type":"Class","time":"TBA","days":" ","where":"ON LINE","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Peter C Eggan (P)"},{"course name":"Comp Systems and Sys Prog - 18319 - CS 531 - 004","type":"Class","time":"1:30 pm - 4:10 pm","days":"M","where":"Arlington: Van Metre Hall 111","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Harold M Greenwald (P)"},{"course name":"Comp Systems and Sys Prog - 22899 - CS 531 - 005","type":"Class","time":"4:30 pm - 7:10 pm","days":"W","where":"Nguyen Engineering Building 1101","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Jim X Chen (P)"},{"course name":"Comp Systems and Sys Prog - 18339 - CS 531 - DL1","type":"Class","time":"TBA","days":" ","where":"ON LINE","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Harold M Greenwald (P)"},{"course name":"Comp Systems and Sys Prog - 19880 - CS 531 - DL2","type":"Class","time":"7:20 pm - 10:00 pm","days":"R","where":"ON LINE","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"TBA"},{"course name":"Database Systems - 17096 - CS 550 - 001","type":"Class","time":"1:30 pm - 4:10 pm","days":"F","where":"Enterprise Hall 178","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Juan Luo (P)"},{"course name":"Database Systems - 15883 - CS 550 - 002","type":"Class","time":"4:30 pm - 7:10 pm","days":"T","where":"Innovation Hall 105","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Wassim Itani (P)"},{"course name":"Database Systems - 17457 - CS 550 - 004","type":"Class","time":"7:20 pm - 10:00 pm","days":"R","where":"Planetary Hall 129","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Juan Luo (P)"},{"course name":"Database Systems - 18320 - CS 550 - 005","type":"Class","time":"10:30 am - 1:10 pm","days":"M","where":"Arlington: Van Metre Hall 111","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Ping Deng (P)"},{"course name":"Database Systems - 18341 - CS 550 - DL3","type":"Class","time":"TBA","days":" ","where":"ON LINE","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Juan Luo (P)"},{"course name":"Computer Graphics - 18343 - CS 551 - DL1","type":"Class","time":"TBA","days":" ","where":"ON LINE","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Jim X Chen (P)"},{"course name":"Computer Commun and Networking - 19881 - CS 555 - 002","type":"Class","time":"1:30 pm - 4:10 pm","days":"F","where":"Planetary Hall 206","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Maha Shamseddine (P)"},{"course name":"Operating Systems - 13513 - CS 571 - 001","type":"Class","time":"4:30 pm - 7:10 pm","days":"M","where":"Nguyen Engineering Building 1103","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Songqing Chen (P)"},{"course name":"Intro Artificial Intelligence - 19762 - CS 580 - 004","type":"Class","time":"4:30 pm - 7:10 pm","days":"R","where":"David King Jr. Hall 1006","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Zoran Duric (P)"},{"course name":"Intro Artificial Intelligence - 22952 - CS 580 - 006","type":"Class","time":"7:20 pm - 10:00 pm","days":"T","where":"Exploratory Hall L004","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Xuesu Xiao (P)"},{"course name":"Intro Artificial Intelligence - 18345 - CS 580 - DL2","type":"Class","time":"TBA","days":" ","where":"ON LINE","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Eric Donghui Yuan (P)"},{"course name":"Intro Artificial Intelligence - 22760 - CS 580 - DL6","type":"Class","time":"10:30 am - 11:45 am","days":"TR","where":"ON LINE","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Gheorghe D Tecuci (P)"},{"course name":"Analysis of Algorithms I - 13133 - CS 583 - 001","type":"Class","time":"7:20 pm - 10:00 pm","days":"M","where":"David King Jr. Hall 1006","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"TBA"},{"course name":"Analysis of Algorithms I - 15884 - CS 583 - 002","type":"Class","time":"4:30 pm - 7:10 pm","days":"T","where":"Nguyen Engineering Building 1101","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Evgenios Kornaropoulos (P)"},{"course name":"Analysis of Algorithms I - 18324 - CS 583 - 005","type":"Class","time":"1:30 pm - 4:10 pm","days":"F","where":"Exploratory Hall L004","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Katherine E Russell (P)"},{"course name":"Analysis of Algorithms I - 18347 - CS 583 - DL3","type":"Class","time":"TBA","days":" ","where":"ON LINE","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Fei Li (P)"},{"course name":"Theory/Application Data Mining - 15885 - CS 584 - 002","type":"Class","time":"7:20 pm - 10:00 pm","days":"M","where":"Innovation Hall 105","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Ziwei Zhu (P)"},{"course name":"Theory/Application Data Mining - 18325 - CS 584 - 003","type":"Class","time":"4:30 pm - 7:10 pm","days":"T","where":"Art and Design Building 2003","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Keren Zhou (P)"},{"course name":"Theory/Application Data Mining - 17475 - CS 584 - 004","type":"Class","time":"10:30 am - 1:10 pm","days":"F","where":"Planetary Hall 129","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"TBA"},{"course name":"Theory/Application Data Mining - 22761 - CS 584 - DL5","type":"Class","time":"4:30 pm - 7:10 pm","days":"W","where":"ON LINE","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Daniel Barbara (P)"},{"course name":"Introduction to Cryptography - 19890 - CS 587 - 001","type":"Class","time":"4:30 pm - 7:10 pm","days":"T","where":"Innovation Hall 206","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Giuseppe Ateniese (P)"},{"course name":"Theory of Computation - 22719 - CS 600 - 001","type":"Class","time":"4:30 pm - 7:10 pm","days":"T","where":"Music/Theater Building 1007","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Dana S Richards (P)"},{"course name":"Advanced Algorithms - 13515 - CS 630 - 001","type":"Class","time":"4:30 pm - 7:10 pm","days":"M","where":"Planetary Hall 206","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Grigory Yaroslavtsev (P)"},{"course name":"Wireless and Mobile Computing - 18327 - CS 655 - 001","type":"Class","time":"4:30 pm - 7:10 pm","days":"R","where":"Planetary Hall 206","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Shuochao Yao (P)"},{"course name":"Computational Design - 17194 - CS 663 - DL1","type":"Class","time":"10:30 am - 1:10 pm","days":"F","where":"ON LINE","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Lap Fai Yu (P)"},{"course name":"Advanced NLP - 20287 - CS 678 - 002","type":"Class","time":"7:20 pm - 10:00 pm","days":"M","where":"Sandbridge Hall 107","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Ziyu Yao (P)"},{"course name":"Computer Vision - 21908 - CS 682 - DL1","type":"Class","time":"TBA","days":" ","where":"ON LINE","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Jana Kosecka (P)"},{"course name":"Machine Learning - 15887 - CS 688 - 001","type":"Class","time":"4:30 pm - 7:10 pm","days":"W","where":"Planetary Hall 206","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Fang-Yi Yu (P)"},{"course name":"Machine Learning - 18329 - CS 688 - 002","type":"Class","time":"1:30 pm - 4:10 pm","days":"T","where":"Krug Hall 7","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Sanmay Das (P)"},{"course name":"SWE Real-Time Embedded Systm - 21913 - CS 692 - 001","type":"Class","time":"4:30 pm - 7:10 pm","days":"W","where":"Horizon Hall 1014","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Robert Pettit (P)"},{"course name":"SWE Real-Time Embedded Systm - 21914 - CS 692 - 002","type":"Class","time":"4:30 pm - 7:10 pm","days":"T","where":"Horizon Hall 2008","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Robert Pettit (P)"},{"course name":"Network Security - 22136 - CS 692 - 003","type":"Class","time":"4:30 pm - 7:10 pm","days":"R","where":"Nguyen Engineering Building 1108","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Xinyuan Wang (P)"},{"course name":"Linux Kernel Internals - 22581 - CS 692 - 004","type":"Class","time":"7:20 pm - 10:00 pm","days":"M","where":"Horizon Hall 1008","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Xiaokuan Zhang (P)"},{"course name":"Advanced Computer Architecture - 22951 - CS 695 - 001","type":"Class","time":"4:30 pm - 7:10 pm","days":"R","where":"Exploratory Hall L003","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Lishan Yang (P)"},{"course name":"Deep Learning - 13516 - CS 747 - 001","type":"Class","time":"4:30 pm - 7:10 pm","days":"T","where":"Planetary Hall 206","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"TBA"},{"course name":"Advanced Machine Learning - 22765 - CS 782 - 001","type":"Class","time":"1:30 pm - 2:45 pm","days":"TR","where":"Horizon Hall 1008","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Mingrui Liu (P)"},{"course name":"Advanced Machine Learning - 22762 - CS 782 - DL1","type":"Class","time":"4:30 pm - 7:10 pm","days":"T","where":"ON LINE","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Daniel Barbara (P)"},{"course name":"Decision Guidance Systems - 21899 - CS 787 - 001","type":"Class","time":"4:30 pm - 7:10 pm","days":"M","where":"Lecture Hall 2","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Lecture","instructor":"Alexander Brodsky (P)"},{"course name":"Computer Science Colloquium - 10258 - CS 800 - 001","type":"Class","time":"7:30 am - 8:45 am","days":"F","where":"Blueridge Hall 129","date range":"Jan 16, 2024 - May 09, 2024","schedule type":"Seminar","instructor":"TBA"}]}
+{
+    "CS": [
+        {
+            "course name": "Principles of Computing - 16565 - CS 100 - 001",
+            "type": "Class",
+            "time": "3:00 pm - 4:15 pm",
+            "days": "MW",
+            "where": "James Buchanan Hall D023",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Ahmed Bin Zaman (P)"
+        },
+        {
+            "course name": "Principles of Computing - 19992 - CS 100 - DL2",
+            "type": "Class",
+            "time": "1:30 pm - 2:45 pm",
+            "days": "MW",
+            "where": "ON LINE",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Ana Loreto Gonzalez Hernandez (P)"
+        },
+        {
+            "course name": "Intro Programming, Part A - 18300 - CS 108 - 001",
+            "type": "Class",
+            "time": "9:00 am - 10:15 am",
+            "days": "MW",
+            "where": "Horizon Hall 2009",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Sara-Lynn Gopalkrishna (P)"
+        },
+        {
+            "course name": "Intro Programming, Part A - 19763 - CS 108 - 002",
+            "type": "Class",
+            "time": "12:00 pm - 1:15 pm",
+            "days": "MW",
+            "where": "James Buchanan Hall D023",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Sara-Lynn Gopalkrishna (P)"
+        },
+        {
+            "course name": "Intro Programming, Part A - 22736 - CS 108 - 004",
+            "type": "Class",
+            "time": "3:00 pm - 4:15 pm",
+            "days": "TR",
+            "where": "Horizon Hall 2017",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Binqian Yin (P)"
+        },
+        {
+            "course name": "Intro Programming, Part B - 18302 - CS 109 - 001",
+            "type": "Class",
+            "time": "9:00 am - 10:15 am",
+            "days": "TR",
+            "where": "Exploratory Hall L102",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Parastoo Kamranfar (P)"
+        },
+        {
+            "course name": "Intro Programming, Part B - 21889 - CS 109 - 002",
+            "type": "Class",
+            "time": "12:00 pm - 1:15 pm",
+            "days": "TR",
+            "where": "James Buchanan Hall D023",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Shahnaz Kamberi (P)"
+        },
+        {
+            "course name": "Lab for Any Lecture - 21890 - CS 109 - 201",
+            "type": "Class",
+            "time": "9:30 am - 10:20 am",
+            "days": "F",
+            "where": "Exploratory Hall L102",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Laboratory",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Lab for Any Lecture - 21891 - CS 109 - 202",
+            "type": "Class",
+            "time": "10:30 am - 11:20 am",
+            "days": "F",
+            "where": "Horizon Hall 2008",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Laboratory",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Essentials of Computer Science - 15875 - CS 110 - 002",
+            "type": "Class",
+            "time": "3:00 pm - 4:15 pm",
+            "days": "TR",
+            "where": "Lecture Hall 1",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Socrates Dimitriadis (P)"
+        },
+        {
+            "course name": "Essentials of Computer Science - 22430 - CS 110 - 003",
+            "type": "Class",
+            "time": "3:00 pm - 4:15 pm",
+            "days": "MW",
+            "where": "Innovation Hall 103",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Tamara A Maddox (P)"
+        },
+        {
+            "course name": "Intro Computer Programming - 12338 - CS 112 - 001",
+            "type": "Class",
+            "time": "3:00 pm - 4:15 pm",
+            "days": "TR",
+            "where": "Enterprise Hall 80",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Shahnaz Kamberi (P)"
+        },
+        {
+            "course name": "Intro Computer Programming - 14176 - CS 112 - 002",
+            "type": "Class",
+            "time": "12:00 pm - 1:15 pm",
+            "days": "MW",
+            "where": "Exploratory Hall L004",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Radu Negulescu (P)"
+        },
+        {
+            "course name": "Intro Computer Programming - 12339 - CS 112 - 003",
+            "type": "Class",
+            "time": "1:30 pm - 2:45 pm",
+            "days": "MW",
+            "where": "Exploratory Hall L004",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Radu Negulescu (P)"
+        },
+        {
+            "course name": "Intro Computer Programming - 18305 - CS 112 - 004",
+            "type": "Class",
+            "time": "9:00 am - 10:15 am",
+            "days": "TR",
+            "where": "Innovation Hall 103",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Sara-Lynn Gopalkrishna (P)"
+        },
+        {
+            "course name": "Intro Computer Programming - 15876 - CS 112 - 005",
+            "type": "Class",
+            "time": "1:30 pm - 2:45 pm",
+            "days": "TR",
+            "where": "Lecture Hall 1",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Laboratory",
+            "instructor": "Parastoo Kamranfar (P)"
+        },
+        {
+            "course name": "Lab for Lecture 001 - 14177 - CS 112 - 201",
+            "type": "Class",
+            "time": "1:30 pm - 2:20 pm",
+            "days": "F",
+            "where": "Horizon Hall 2008",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Laboratory",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Lab for Lecture 001 - 14178 - CS 112 - 202",
+            "type": "Class",
+            "time": "2:30 pm - 3:20 pm",
+            "days": "F",
+            "where": "Horizon Hall 2008",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Laboratory",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Lab for Lecture 001 - 14180 - CS 112 - 203",
+            "type": "Class",
+            "time": "3:30 pm - 4:20 pm",
+            "days": "F",
+            "where": "Horizon Hall 2008",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Laboratory",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Lab for Lecture 002 - 14181 - CS 112 - 204",
+            "type": "Class",
+            "time": "12:30 pm - 1:20 pm",
+            "days": "R",
+            "where": "Horizon Hall 3012",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Laboratory",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Lab for Lecture 002 - 21892 - CS 112 - 205",
+            "type": "Class",
+            "time": "1:30 pm - 2:20 pm",
+            "days": "R",
+            "where": "Exploratory Hall L102",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Laboratory",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Lab for Lecture 003 - 14182 - CS 112 - 206",
+            "type": "Class",
+            "time": "2:30 pm - 3:20 pm",
+            "days": "R",
+            "where": "Exploratory Hall L102",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Laboratory",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Lab for Lecture 003 - 14183 - CS 112 - 207",
+            "type": "Class",
+            "time": "3:30 pm - 4:20 pm",
+            "days": "R",
+            "where": "Exploratory Hall L102",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Laboratory",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Lab for Lecture 004 - 14184 - CS 112 - 208",
+            "type": "Class",
+            "time": "8:30 am - 9:20 am",
+            "days": "F",
+            "where": "Horizon Hall 1012",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Laboratory",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Lab for Lecture 004 - 14185 - CS 112 - 209",
+            "type": "Class",
+            "time": "9:30 am - 10:20 am",
+            "days": "F",
+            "where": "Horizon Hall 1012",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Laboratory",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Lab for Lecture 005 - 15877 - CS 112 - 211",
+            "type": "Class",
+            "time": "11:30 am - 12:20 pm",
+            "days": "F",
+            "where": "Horizon Hall 2008",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Laboratory",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Lab for Lecture 005 - 15878 - CS 112 - 212",
+            "type": "Class",
+            "time": "12:30 pm - 1:20 pm",
+            "days": "F",
+            "where": "Horizon Hall 2008",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Laboratory",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Object-Oriented Programming - 12341 - CS 211 - 001",
+            "type": "Class",
+            "time": "1:30 pm - 2:45 pm",
+            "days": "MW",
+            "where": "Innovation Hall 105",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Brian Hrolenok (P)"
+        },
+        {
+            "course name": "Object-Oriented Programming - 12342 - CS 211 - 002",
+            "type": "Class",
+            "time": "3:00 pm - 4:15 pm",
+            "days": "MW",
+            "where": "Lecture Hall 1",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Brian Hrolenok (P)"
+        },
+        {
+            "course name": "Object-Oriented Programming - 17139 - CS 211 - 003",
+            "type": "Class",
+            "time": "9:00 am - 10:15 am",
+            "days": "TR",
+            "where": "Lecture Hall 1",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Laboratory",
+            "instructor": "David Ignacio Gonzalez Samudio (P)"
+        },
+        {
+            "course name": "Object-Oriented Programming - 18306 - CS 211 - 004",
+            "type": "Class",
+            "time": "1:30 pm - 2:45 pm",
+            "days": "TR",
+            "where": "Innovation Hall 105",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "David Ignacio Gonzalez Samudio (P)"
+        },
+        {
+            "course name": "Lab for Lecture 001 - 12343 - CS 211 - 201",
+            "type": "Class",
+            "time": "10:30 am - 11:20 am",
+            "days": "R",
+            "where": "Horizon Hall 2009",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Laboratory",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Lab for Lecture 001 - 12344 - CS 211 - 202",
+            "type": "Class",
+            "time": "9:30 am - 10:20 am",
+            "days": "R",
+            "where": "James Buchanan Hall D023",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Laboratory",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Lab for Lecture 002 - 12345 - CS 211 - 203",
+            "type": "Class",
+            "time": "12:30 pm - 1:20 pm",
+            "days": "R",
+            "where": "Horizon Hall 1014",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Laboratory",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Lab for Lecture 002 - 12346 - CS 211 - 204",
+            "type": "Class",
+            "time": "1:30 pm - 2:20 pm",
+            "days": "R",
+            "where": "James Buchanan Hall D023",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Laboratory",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Lab for Lecture 003 - 12347 - CS 211 - 205",
+            "type": "Class",
+            "time": "9:30 am - 10:20 am",
+            "days": "F",
+            "where": "Horizon Hall 2008",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Laboratory",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Lab for Lecture 003 - 14188 - CS 211 - 206",
+            "type": "Class",
+            "time": "10:30 am - 11:20 am",
+            "days": "F",
+            "where": "James Buchanan Hall D023",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Laboratory",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Lab for Lecture 004 - 12349 - CS 211 - 208",
+            "type": "Class",
+            "time": "12:30 pm - 1:20 pm",
+            "days": "F",
+            "where": "James Buchanan Hall D023",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Laboratory",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Lab for Lecture 004 - 14192 - CS 211 - 209",
+            "type": "Class",
+            "time": "1:30 pm - 2:20 pm",
+            "days": "F",
+            "where": "Exploratory Hall L102",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Laboratory",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Honors Lab for Lecture H01 - 14093 - CS 211 - 2H4",
+            "type": "Class",
+            "time": "1:30 pm - 2:20 pm",
+            "days": "R",
+            "where": "James Buchanan Hall D023",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Laboratory",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Object-Oriented Programming - 12355 - CS 211 - H02",
+            "type": "Class",
+            "time": "3:00 pm - 4:15 pm",
+            "days": "MW",
+            "where": "Lecture Hall 1",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Brian Hrolenok (P)"
+        },
+        {
+            "course name": "Computer Program for Engineers - 10612 - CS 222 - 001",
+            "type": "Class",
+            "time": "9:00 am - 10:15 am",
+            "days": "MW",
+            "where": "East 201",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "John E Otten (P)"
+        },
+        {
+            "course name": "Computer Program for Engineers - 22738 - CS 222 - 002",
+            "type": "Class",
+            "time": "3:00 pm - 4:15 pm",
+            "days": "MW",
+            "where": "Horizon Hall 1010",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Intro to Low-level Programming - 18307 - CS 262 - 001",
+            "type": "Class",
+            "time": "9:00 am - 10:15 am",
+            "days": "TR",
+            "where": "Exploratory Hall L004",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Hamza Mughal (P)"
+        },
+        {
+            "course name": "Intro to Low-level Programming - 12358 - CS 262 - 002",
+            "type": "Class",
+            "time": "12:00 pm - 1:15 pm",
+            "days": "TR",
+            "where": "Innovation Hall 105",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Ana Loreto Gonzalez Hernandez (P)"
+        },
+        {
+            "course name": "Intro to Low-level Programming - 13511 - CS 262 - 003",
+            "type": "Class",
+            "time": "3:00 pm - 4:15 pm",
+            "days": "TR",
+            "where": "Exploratory Hall L004",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Ana Loreto Gonzalez Hernandez (P)"
+        },
+        {
+            "course name": "Intro to Low-level Programming - 22891 - CS 262 - 005",
+            "type": "Class",
+            "time": "3:00 pm - 4:15 pm",
+            "days": "MW",
+            "where": "Horizon Hall 2009",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Kevin Michael Andrea (P)"
+        },
+        {
+            "course name": "Lab for Lecture 001 - 18312 - CS 262 - 201",
+            "type": "Class",
+            "time": "9:30 am - 10:20 am",
+            "days": "F",
+            "where": "James Buchanan Hall D023",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Laboratory",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Lab for Lecture 001 - 18309 - CS 262 - 202",
+            "type": "Class",
+            "time": "10:30 am - 11:20 am",
+            "days": "F",
+            "where": "Exploratory Hall L102",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Laboratory",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Lab for Lecture 002 - 18311 - CS 262 - 203",
+            "type": "Class",
+            "time": "11:30 am - 12:20 pm",
+            "days": "F",
+            "where": "James Buchanan Hall D023",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Laboratory",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Lab for Lecture 002 - 12361 - CS 262 - 204",
+            "type": "Class",
+            "time": "12:30 pm - 1:20 pm",
+            "days": "F",
+            "where": "Exploratory Hall L102",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Laboratory",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Lab for Lecture 003 - 14194 - CS 262 - 205",
+            "type": "Class",
+            "time": "1:30 pm - 2:20 pm",
+            "days": "F",
+            "where": "James Buchanan Hall D023",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Laboratory",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Lab for Lecture 003 - 14195 - CS 262 - 206",
+            "type": "Class",
+            "time": "2:30 pm - 3:20 pm",
+            "days": "F",
+            "where": "James Buchanan Hall D023",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Laboratory",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Lab for Lecture 005 - 22894 - CS 262 - 207",
+            "type": "Class",
+            "time": "3:30 pm - 4:20 pm",
+            "days": "F",
+            "where": "James Buchanan Hall D003",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Laboratory",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Lab for Lecture 005 - 22895 - CS 262 - 208",
+            "type": "Class",
+            "time": "8:30 am - 9:20 am",
+            "days": "F",
+            "where": "James Buchanan Hall D023",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Laboratory",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Synt Ethics/Law for Comp Profe - 13779 - CS 306 - 001",
+            "type": "Class",
+            "time": "9:00 am - 10:15 am",
+            "days": "MW",
+            "where": "Innovation Hall 215G",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Tamara A Maddox (P)"
+        },
+        {
+            "course name": "Synt Ethics/Law for Comp Profe - 21894 - CS 306 - 002",
+            "type": "Class",
+            "time": "12:00 pm - 1:15 pm",
+            "days": "MW",
+            "where": "Horizon Hall 4008",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Tamara A Maddox (P)"
+        },
+        {
+            "course name": "Synt Ethics/Law for Comp Profe - 10232 - CS 306 - 003",
+            "type": "Class",
+            "time": "1:30 pm - 2:45 pm",
+            "days": "MW",
+            "where": "Horizon Hall 3012",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "John E Otten (P)"
+        },
+        {
+            "course name": "Synt Ethics/Law for Comp Profe - 10454 - CS 306 - 004",
+            "type": "Class",
+            "time": "3:00 pm - 4:15 pm",
+            "days": "MW",
+            "where": "Peterson Hall 1105",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "John E Otten (P)"
+        },
+        {
+            "course name": "Synt Ethics/Law for Comp Profe - 14765 - CS 306 - 005",
+            "type": "Class",
+            "time": "9:00 am - 10:15 am",
+            "days": "TR",
+            "where": "Thompson Hall 2022",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Synt Ethics/Law for Comp Profe - 13015 - CS 306 - 006",
+            "type": "Class",
+            "time": "10:30 am - 11:45 am",
+            "days": "TR",
+            "where": "Horizon Hall 4010",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Michael W Tompkins (P)"
+        },
+        {
+            "course name": "Synt Ethics/Law for Comp Profe - 19997 - CS 306 - 007",
+            "type": "Class",
+            "time": "1:30 pm - 4:10 pm",
+            "days": "W",
+            "where": "Peterson Hall 2413",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Fred W Geldon (P)"
+        },
+        {
+            "course name": "Synt Ethics/Law for Comp Profe - 22353 - CS 306 - 008",
+            "type": "Class",
+            "time": "4:30 pm - 5:45 pm",
+            "days": "TR",
+            "where": "Enterprise Hall 174",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Data Structures - 10167 - CS 310 - 001",
+            "type": "Class",
+            "time": "9:00 am - 10:15 am",
+            "days": "MW",
+            "where": "Exploratory Hall L004",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Yutao Zhong (P)"
+        },
+        {
+            "course name": "Data Structures - 19696 - CS 310 - 002",
+            "type": "Class",
+            "time": "3:00 pm - 4:15 pm",
+            "days": "MW",
+            "where": "Enterprise Hall 178",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Yutao Zhong (P)"
+        },
+        {
+            "course name": "Data Structures - 19708 - CS 310 - 003",
+            "type": "Class",
+            "time": "9:00 am - 10:15 am",
+            "days": "TR",
+            "where": "Horizon Hall 2014",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Yutao Zhong (P)"
+        },
+        {
+            "course name": "Data Structures - 13017 - CS 310 - 004",
+            "type": "Class",
+            "time": "10:30 am - 11:45 am",
+            "days": "TR",
+            "where": "Innovation Hall 105",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Socrates Dimitriadis (P)"
+        },
+        {
+            "course name": "Data Structures - 22896 - CS 310 - 005",
+            "type": "Class",
+            "time": "4:30 pm - 5:45 pm",
+            "days": "MW",
+            "where": "Lecture Hall 1",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Socrates Dimitriadis (P)"
+        },
+        {
+            "course name": "Software Engineering - 19764 - CS 321 - 001",
+            "type": "Class",
+            "time": "1:30 pm - 2:45 pm",
+            "days": "MW",
+            "where": "Innovation Hall 206",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Wassim Masri (P)"
+        },
+        {
+            "course name": "Software Engineering - 10512 - CS 321 - 002",
+            "type": "Class",
+            "time": "12:00 pm - 1:15 pm",
+            "days": "MW",
+            "where": "Innovation Hall 215G",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Wassim Masri (P)"
+        },
+        {
+            "course name": "Software Engineering - 13016 - CS 321 - 004",
+            "type": "Class",
+            "time": "9:00 am - 10:15 am",
+            "days": "TR",
+            "where": "Thompson Hall 2021",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Michael S Reep (P)"
+        },
+        {
+            "course name": "Software Engineering - 13512 - CS 321 - 005",
+            "type": "Class",
+            "time": "10:30 am - 11:45 am",
+            "days": "TR",
+            "where": "Innovation Hall 215G",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Shvetha Soundararajan (P)"
+        },
+        {
+            "course name": "Software Engineering - 15049 - CS 321 - 006",
+            "type": "Class",
+            "time": "12:00 pm - 1:15 pm",
+            "days": "TR",
+            "where": "Innovation Hall 215G",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Shvetha Soundararajan (P)"
+        },
+        {
+            "course name": "Software Engineering - 21895 - CS 321 - 007",
+            "type": "Class",
+            "time": "1:30 pm - 2:45 pm",
+            "days": "TR",
+            "where": "Innovation Hall 215G",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Shvetha Soundararajan (P)"
+        },
+        {
+            "course name": "Software Engineering - 22900 - CS 321 - 008",
+            "type": "Class",
+            "time": "1:30 pm - 2:45 pm",
+            "days": "TR",
+            "where": "Peterson Hall 1105",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Michael S Reep (P)"
+        },
+        {
+            "course name": "Formal Methods and Models - 10168 - CS 330 - 001",
+            "type": "Class",
+            "time": "3:00 pm - 4:15 pm",
+            "days": "MW",
+            "where": "Nguyen Engineering Building 1101",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Foteini Baldimtsi (P)"
+        },
+        {
+            "course name": "Formal Methods and Models - 10452 - CS 330 - 002",
+            "type": "Class",
+            "time": "9:00 am - 10:15 am",
+            "days": "TR",
+            "where": "Enterprise Hall 80",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Ivan Avramovic (P)"
+        },
+        {
+            "course name": "Formal Methods and Models - 12619 - CS 330 - 003",
+            "type": "Class",
+            "time": "1:30 pm - 2:45 pm",
+            "days": "MW",
+            "where": "Sandbridge Hall 107",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Ahmed Bin Zaman (P)"
+        },
+        {
+            "course name": "Formal Methods and Models - 20883 - CS 330 - 004",
+            "type": "Class",
+            "time": "1:30 pm - 2:45 pm",
+            "days": "TR",
+            "where": "Horizon Hall 2014",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Ahmed Bin Zaman (P)"
+        },
+        {
+            "course name": "Formal Methods and Models - 22734 - CS 330 - 005",
+            "type": "Class",
+            "time": "10:30 am - 11:45 am",
+            "days": "TR",
+            "where": "Horizon Hall 2008",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Ivan Avramovic (P)"
+        },
+        {
+            "course name": "Visual Computing - 22703 - CS 351 - 002",
+            "type": "Class",
+            "time": "1:30 pm - 2:45 pm",
+            "days": "MW",
+            "where": "Arlington: Van Metre Hall 308",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Lap Fai Yu (P)"
+        },
+        {
+            "course name": "Computer Systems and Programm - 10169 - CS 367 - 001",
+            "type": "Class",
+            "time": "1:30 pm - 2:45 pm",
+            "days": "MW",
+            "where": "Horizon Hall 1014",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Hamza Mughal (P)"
+        },
+        {
+            "course name": "Computer Systems and Programm - 10251 - CS 367 - 002",
+            "type": "Class",
+            "time": "3:00 pm - 4:15 pm",
+            "days": "MW",
+            "where": "Horizon Hall 2016",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Hamza Mughal (P)"
+        },
+        {
+            "course name": "Computer Systems and Programm - 12587 - CS 367 - 003",
+            "type": "Class",
+            "time": "10:30 am - 11:45 am",
+            "days": "TR",
+            "where": "Horizon Hall 2016",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Kevin Michael Andrea (P)"
+        },
+        {
+            "course name": "Computer Systems and Programm - 21896 - CS 367 - 004",
+            "type": "Class",
+            "time": "9:00 am - 10:15 am",
+            "days": "TR",
+            "where": "Horizon Hall 2009",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Kevin Michael Andrea (P)"
+        },
+        {
+            "course name": "Recitation for Lecture 001-004 - 12598 - CS 367 - 301",
+            "type": "Class",
+            "time": "9:30 am - 10:20 am",
+            "days": "F",
+            "where": "Horizon Hall 1008",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Recitation",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Recitation for Lecture 001-004 - 12599 - CS 367 - 302",
+            "type": "Class",
+            "time": "10:30 am - 11:20 am",
+            "days": "F",
+            "where": "Horizon Hall 1008",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Recitation",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Recitation for Lecture 001-004 - 12600 - CS 367 - 303",
+            "type": "Class",
+            "time": "11:30 am - 12:20 pm",
+            "days": "F",
+            "where": "Horizon Hall 1008",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Recitation",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Recitation for Lecture 001-004 - 12601 - CS 367 - 304",
+            "type": "Class",
+            "time": "12:30 pm - 1:20 pm",
+            "days": "F",
+            "where": "Horizon Hall 1008",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Recitation",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Recitation for Lecture 001-004 - 12602 - CS 367 - 305",
+            "type": "Class",
+            "time": "1:30 pm - 2:20 pm",
+            "days": "F",
+            "where": "Horizon Hall 1008",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Recitation",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Recitation for Lecture 001-004 - 12603 - CS 367 - 306",
+            "type": "Class",
+            "time": "2:30 pm - 3:20 pm",
+            "days": "F",
+            "where": "Horizon Hall 1008",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Recitation",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Recitation for Lecture 001-004 - 12945 - CS 367 - 307",
+            "type": "Class",
+            "time": "3:30 pm - 4:20 pm",
+            "days": "F",
+            "where": "Horizon Hall 1008",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Advanced Programming Lab - 22701 - CS 391 - 201",
+            "type": "Class",
+            "time": "3:00 pm - 4:15 pm",
+            "days": "R",
+            "where": "West 1008",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Laboratory",
+            "instructor": "Brian Hrolenok (P)"
+        },
+        {
+            "course name": "Game Programming II - 22702 - CS 426 - 002",
+            "type": "Class",
+            "time": "1:30 pm - 4:10 pm",
+            "days": "M",
+            "where": "Arlington: Van Metre Hall 210",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Yotam Gingold (P)"
+        },
+        {
+            "course name": "Database Concepts - 13014 - CS 450 - 001",
+            "type": "Class",
+            "time": "1:30 pm - 2:45 pm",
+            "days": "TR",
+            "where": "Blueridge Hall 129",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Ping Deng (P)"
+        },
+        {
+            "course name": "Database Concepts - 20003 - CS 450 - 003",
+            "type": "Class",
+            "time": "12:00 pm - 1:15 pm",
+            "days": "TR",
+            "where": "Horizon Hall 2016",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Ping Deng (P)"
+        },
+        {
+            "course name": "Database Concepts - 21906 - CS 450 - 004",
+            "type": "Class",
+            "time": "10:30 am - 1:10 pm",
+            "days": "M",
+            "where": "Arlington: Van Metre Hall 111",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Ping Deng (P)"
+        },
+        {
+            "course name": "Database Concepts - 22699 - CS 450 - 005",
+            "type": "Class",
+            "time": "1:30 pm - 2:45 pm",
+            "days": "MW",
+            "where": "Horizon Hall 2009",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Wassim Itani (P)"
+        },
+        {
+            "course name": "Computer Graphics - 15880 - CS 451 - 001",
+            "type": "Class",
+            "time": "3:00 pm - 4:15 pm",
+            "days": "TR",
+            "where": "Nguyen Engineering Building 1101",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Jinwei Ye (P)"
+        },
+        {
+            "course name": "Comp Communications/Networking - 10783 - CS 455 - 001",
+            "type": "Class",
+            "time": "12:00 pm - 1:15 pm",
+            "days": "MW",
+            "where": "Innovation Hall 132",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Eric Osterweil (P)"
+        },
+        {
+            "course name": "Comp Communications/Networking - 21897 - CS 455 - 002",
+            "type": "Class",
+            "time": "3:00 pm - 4:15 pm",
+            "days": "MW",
+            "where": "Exploratory Hall L004",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Sapna Gambhir (P)"
+        },
+        {
+            "course name": "Comp Communications/Networking - 22906 - CS 455 - 005",
+            "type": "Class",
+            "time": "4:30 pm - 7:10 pm",
+            "days": "W",
+            "where": "Innovation Hall 105",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Parth Pathak (P)"
+        },
+        {
+            "course name": "Comparative Programming Langua - 10451 - CS 463 - 001",
+            "type": "Class",
+            "time": "1:30 pm - 2:45 pm",
+            "days": "TR",
+            "where": "East 201",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Mark Huntington Snyder (P)"
+        },
+        {
+            "course name": "Computer Systems Architecture - 14198 - CS 465 - 001",
+            "type": "Class",
+            "time": "10:30 am - 11:45 am",
+            "days": "TR",
+            "where": "Exploratory Hall L102",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Radu Negulescu (P)"
+        },
+        {
+            "course name": "Secure Programming and Systems - 15881 - CS 468 - 001",
+            "type": "Class",
+            "time": "12:00 pm - 1:15 pm",
+            "days": "MW",
+            "where": "Horizon Hall 2014",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Maha Shamseddine (P)"
+        },
+        {
+            "course name": "Secure Programming and Systems - 18313 - CS 468 - 002",
+            "type": "Class",
+            "time": "1:30 pm - 2:45 pm",
+            "days": "MW",
+            "where": "Exploratory Hall L102",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Maha Shamseddine (P)"
+        },
+        {
+            "course name": "Operating Systems - 10170 - CS 471 - 001",
+            "type": "Class",
+            "time": "3:00 pm - 4:15 pm",
+            "days": "MW",
+            "where": "Exploratory Hall L102",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Hakan Aydin (P)"
+        },
+        {
+            "course name": "Operating Systems - 10762 - CS 471 - 002",
+            "type": "Class",
+            "time": "9:00 am - 10:15 am",
+            "days": "TR",
+            "where": "Merten Hall 1200",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Sapna Gambhir (P)"
+        },
+        {
+            "course name": "Operating Systems - 19649 - CS 471 - 004",
+            "type": "Class",
+            "time": "3:00 pm - 4:15 pm",
+            "days": "TR",
+            "where": "Horizon Hall 2009",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Sapna Gambhir (P)"
+        },
+        {
+            "course name": "Operating Systems - 22440 - CS 471 - 005",
+            "type": "Class",
+            "time": "10:30 am - 1:10 pm",
+            "days": "F",
+            "where": "Innovation Hall 132",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Songqing Chen (P)"
+        },
+        {
+            "course name": "Concurrent and Distrib Systems - 22408 - CS 475 - 001",
+            "type": "Class",
+            "time": "1:30 pm - 2:45 pm",
+            "days": "TR",
+            "where": "Krug Hall 242",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Sanjeev K Setia (P)"
+        },
+        {
+            "course name": "Mobile Application Development - 22684 - CS 477 - 001",
+            "type": "Class",
+            "time": "4:30 pm - 7:10 pm",
+            "days": "M",
+            "where": "Exploratory Hall L102",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Elizabeth L White (P)"
+        },
+        {
+            "course name": "Intro Artificial Intelligence - 19359 - CS 480 - 001",
+            "type": "Class",
+            "time": "10:30 am - 11:45 am",
+            "days": "TR",
+            "where": "East 201",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Brian Hrolenok (P)"
+        },
+        {
+            "course name": "Intro Artificial Intelligence - 22737 - CS 480 - DL2",
+            "type": "Class",
+            "time": "10:30 am - 11:45 am",
+            "days": "MW",
+            "where": "ON LINE",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Gheorghe D Tecuci (P)"
+        },
+        {
+            "course name": "Computer Vision - 14200 - CS 482 - 001",
+            "type": "Class",
+            "time": "12:00 pm - 1:15 pm",
+            "days": "MW",
+            "where": "Horizon Hall 1014",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Gregory Joseph Stein (P)"
+        },
+        {
+            "course name": "Analysis of Algorithms - 10614 - CS 483 - 001",
+            "type": "Class",
+            "time": "1:30 pm - 2:45 pm",
+            "days": "MW",
+            "where": "Horizon Hall 2016",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Katherine E Russell (P)"
+        },
+        {
+            "course name": "Analysis of Algorithms - 10171 - CS 483 - 002",
+            "type": "Class",
+            "time": "3:00 pm - 4:15 pm",
+            "days": "MW",
+            "where": "Music/Theater Building 1005",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Katherine E Russell (P)"
+        },
+        {
+            "course name": "Analysis of Algorithms - 15882 - CS 483 - 003",
+            "type": "Class",
+            "time": "12:00 pm - 1:15 pm",
+            "days": "TR",
+            "where": "Exploratory Hall L102",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Dana S Richards (P)"
+        },
+        {
+            "course name": "Analysis of Algorithms - 21898 - CS 483 - 004",
+            "type": "Class",
+            "time": "1:30 pm - 2:45 pm",
+            "days": "TR",
+            "where": "Nguyen Engineering Building 1101",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Dana S Richards (P)"
+        },
+        {
+            "course name": "Data Mining - 15894 - CS 484 - 001",
+            "type": "Class",
+            "time": "1:30 pm - 2:45 pm",
+            "days": "TR",
+            "where": "Exploratory Hall L003",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Jessica Lin (P)"
+        },
+        {
+            "course name": "Data Mining - 10893 - CS 484 - 002",
+            "type": "Class",
+            "time": "3:00 pm - 4:15 pm",
+            "days": "TR",
+            "where": "Horizon Hall 2016",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Jessica Lin (P)"
+        },
+        {
+            "course name": "Introduction to Cryptography - 19884 - CS 487 - 001",
+            "type": "Class",
+            "time": "4:30 pm - 7:10 pm",
+            "days": "T",
+            "where": "Innovation Hall 206",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Giuseppe Ateniese (P)"
+        },
+        {
+            "course name": "Industry-Spons Senr Des Proj - 12604 - CS 491 - 001",
+            "type": "Class",
+            "time": "1:30 pm - 4:10 pm",
+            "days": "F",
+            "where": "Horizon Hall 3008",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Robert L, Bailey (P)"
+        },
+        {
+            "course name": "Security Laboratory - 14201 - CS 499 - 001",
+            "type": "Class",
+            "time": "7:20 pm - 10:00 pm",
+            "days": "M",
+            "where": "Arlington: Van Metre Hall 308",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lec/Sem #2",
+            "instructor": "Paul Seymer (P)"
+        },
+        {
+            "course name": "Blockchains & Cryptofinance - 22700 - CS 499 - 002",
+            "type": "Class MM 15",
+            "time": "3:00 pm - 4:15 pm",
+            "days": "MW",
+            "where": "Innovation Hall 204",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lec/Sem #3",
+            "instructor": "Foteini Baldimtsi (P)"
+        },
+        {
+            "course name": "Quantum Algorithms - 22739 - CS 499 - 003",
+            "type": "Class",
+            "time": "5:55 pm - 7:10 pm",
+            "days": "MW",
+            "where": "Exploratory Hall 4106",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Michael Jarret Baume (P)"
+        },
+        {
+            "course name": "Principles Data Managmt/Mining - 12703 - CS 504 - 002",
+            "type": "Class",
+            "time": "4:30 pm - 7:10 pm",
+            "days": "T",
+            "where": "Exploratory Hall L004",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Binqian Yin (P)"
+        },
+        {
+            "course name": "Principles Data Managmt/Mining - 10811 - CS 504 - 003",
+            "type": "Class",
+            "time": "4:30 pm - 7:10 pm",
+            "days": "M",
+            "where": "Innovation Hall 103",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Binqian Yin (P)"
+        },
+        {
+            "course name": "Principles Data Managmt/Mining - 19886 - CS 504 - DL3",
+            "type": "Class",
+            "time": "TBA",
+            "days": " ",
+            "where": "ON LINE",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Principles Data Managmt/Mining - 20007 - CS 504 - DL4",
+            "type": "Class",
+            "time": "TBA",
+            "days": " ",
+            "where": "ON LINE",
+            "date range": "Mar 11, 2024 - May 05, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Isaac K Gang (P)"
+        },
+        {
+            "course name": "Mathematical Foundations of CS - 10836 - CS 530 - 001",
+            "type": "Class",
+            "time": "7:20 pm - 10:00 pm",
+            "days": "W",
+            "where": "Lecture Hall 1",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Mahendra H Panagoda (P)"
+        },
+        {
+            "course name": "Mathematical Foundations of CS - 17231 - CS 530 - DL1",
+            "type": "Class",
+            "time": "TBA",
+            "days": " ",
+            "where": "ON LINE",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Peter C Eggan (P)"
+        },
+        {
+            "course name": "Comp Systems and Sys Prog - 18319 - CS 531 - 004",
+            "type": "Class",
+            "time": "1:30 pm - 4:10 pm",
+            "days": "M",
+            "where": "Arlington: Van Metre Hall 111",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Harold M Greenwald (P)"
+        },
+        {
+            "course name": "Comp Systems and Sys Prog - 22899 - CS 531 - 005",
+            "type": "Class",
+            "time": "4:30 pm - 7:10 pm",
+            "days": "W",
+            "where": "Nguyen Engineering Building 1101",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Jim X Chen (P)"
+        },
+        {
+            "course name": "Comp Systems and Sys Prog - 18339 - CS 531 - DL1",
+            "type": "Class",
+            "time": "TBA",
+            "days": " ",
+            "where": "ON LINE",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Harold M Greenwald (P)"
+        },
+        {
+            "course name": "Comp Systems and Sys Prog - 19880 - CS 531 - DL2",
+            "type": "Class",
+            "time": "7:20 pm - 10:00 pm",
+            "days": "R",
+            "where": "ON LINE",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Database Systems - 17096 - CS 550 - 001",
+            "type": "Class",
+            "time": "1:30 pm - 4:10 pm",
+            "days": "F",
+            "where": "Enterprise Hall 178",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Juan Luo (P)"
+        },
+        {
+            "course name": "Database Systems - 15883 - CS 550 - 002",
+            "type": "Class",
+            "time": "4:30 pm - 7:10 pm",
+            "days": "T",
+            "where": "Innovation Hall 105",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Wassim Itani (P)"
+        },
+        {
+            "course name": "Database Systems - 17457 - CS 550 - 004",
+            "type": "Class",
+            "time": "7:20 pm - 10:00 pm",
+            "days": "R",
+            "where": "Planetary Hall 129",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Juan Luo (P)"
+        },
+        {
+            "course name": "Database Systems - 18320 - CS 550 - 005",
+            "type": "Class",
+            "time": "10:30 am - 1:10 pm",
+            "days": "M",
+            "where": "Arlington: Van Metre Hall 111",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Ping Deng (P)"
+        },
+        {
+            "course name": "Database Systems - 18341 - CS 550 - DL3",
+            "type": "Class",
+            "time": "TBA",
+            "days": " ",
+            "where": "ON LINE",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Juan Luo (P)"
+        },
+        {
+            "course name": "Computer Graphics - 18343 - CS 551 - DL1",
+            "type": "Class",
+            "time": "TBA",
+            "days": " ",
+            "where": "ON LINE",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Jim X Chen (P)"
+        },
+        {
+            "course name": "Computer Commun and Networking - 19881 - CS 555 - 002",
+            "type": "Class",
+            "time": "1:30 pm - 4:10 pm",
+            "days": "F",
+            "where": "Planetary Hall 206",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Maha Shamseddine (P)"
+        },
+        {
+            "course name": "Operating Systems - 13513 - CS 571 - 001",
+            "type": "Class",
+            "time": "4:30 pm - 7:10 pm",
+            "days": "M",
+            "where": "Nguyen Engineering Building 1103",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Songqing Chen (P)"
+        },
+        {
+            "course name": "Intro Artificial Intelligence - 19762 - CS 580 - 004",
+            "type": "Class",
+            "time": "4:30 pm - 7:10 pm",
+            "days": "R",
+            "where": "David King Jr. Hall 1006",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Zoran Duric (P)"
+        },
+        {
+            "course name": "Intro Artificial Intelligence - 22952 - CS 580 - 006",
+            "type": "Class",
+            "time": "7:20 pm - 10:00 pm",
+            "days": "T",
+            "where": "Exploratory Hall L004",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Xuesu Xiao (P)"
+        },
+        {
+            "course name": "Intro Artificial Intelligence - 18345 - CS 580 - DL2",
+            "type": "Class",
+            "time": "TBA",
+            "days": " ",
+            "where": "ON LINE",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Eric Donghui Yuan (P)"
+        },
+        {
+            "course name": "Intro Artificial Intelligence - 22760 - CS 580 - DL6",
+            "type": "Class",
+            "time": "10:30 am - 11:45 am",
+            "days": "TR",
+            "where": "ON LINE",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Gheorghe D Tecuci (P)"
+        },
+        {
+            "course name": "Analysis of Algorithms I - 13133 - CS 583 - 001",
+            "type": "Class",
+            "time": "7:20 pm - 10:00 pm",
+            "days": "M",
+            "where": "David King Jr. Hall 1006",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Analysis of Algorithms I - 15884 - CS 583 - 002",
+            "type": "Class",
+            "time": "4:30 pm - 7:10 pm",
+            "days": "T",
+            "where": "Nguyen Engineering Building 1101",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Evgenios Kornaropoulos (P)"
+        },
+        {
+            "course name": "Analysis of Algorithms I - 18324 - CS 583 - 005",
+            "type": "Class",
+            "time": "1:30 pm - 4:10 pm",
+            "days": "F",
+            "where": "Exploratory Hall L004",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Katherine E Russell (P)"
+        },
+        {
+            "course name": "Analysis of Algorithms I - 18347 - CS 583 - DL3",
+            "type": "Class",
+            "time": "TBA",
+            "days": " ",
+            "where": "ON LINE",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Fei Li (P)"
+        },
+        {
+            "course name": "Theory/Application Data Mining - 15885 - CS 584 - 002",
+            "type": "Class",
+            "time": "7:20 pm - 10:00 pm",
+            "days": "M",
+            "where": "Innovation Hall 105",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Ziwei Zhu (P)"
+        },
+        {
+            "course name": "Theory/Application Data Mining - 18325 - CS 584 - 003",
+            "type": "Class",
+            "time": "4:30 pm - 7:10 pm",
+            "days": "T",
+            "where": "Art and Design Building 2003",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Keren Zhou (P)"
+        },
+        {
+            "course name": "Theory/Application Data Mining - 17475 - CS 584 - 004",
+            "type": "Class",
+            "time": "10:30 am - 1:10 pm",
+            "days": "F",
+            "where": "Planetary Hall 129",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Theory/Application Data Mining - 22761 - CS 584 - DL5",
+            "type": "Class",
+            "time": "4:30 pm - 7:10 pm",
+            "days": "W",
+            "where": "ON LINE",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Daniel Barbara (P)"
+        },
+        {
+            "course name": "Introduction to Cryptography - 19890 - CS 587 - 001",
+            "type": "Class",
+            "time": "4:30 pm - 7:10 pm",
+            "days": "T",
+            "where": "Innovation Hall 206",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Giuseppe Ateniese (P)"
+        },
+        {
+            "course name": "Theory of Computation - 22719 - CS 600 - 001",
+            "type": "Class",
+            "time": "4:30 pm - 7:10 pm",
+            "days": "T",
+            "where": "Music/Theater Building 1007",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Dana S Richards (P)"
+        },
+        {
+            "course name": "Advanced Algorithms - 13515 - CS 630 - 001",
+            "type": "Class",
+            "time": "4:30 pm - 7:10 pm",
+            "days": "M",
+            "where": "Planetary Hall 206",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Grigory Yaroslavtsev (P)"
+        },
+        {
+            "course name": "Wireless and Mobile Computing - 18327 - CS 655 - 001",
+            "type": "Class",
+            "time": "4:30 pm - 7:10 pm",
+            "days": "R",
+            "where": "Planetary Hall 206",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Shuochao Yao (P)"
+        },
+        {
+            "course name": "Computational Design - 17194 - CS 663 - DL1",
+            "type": "Class",
+            "time": "10:30 am - 1:10 pm",
+            "days": "F",
+            "where": "ON LINE",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Lap Fai Yu (P)"
+        },
+        {
+            "course name": "Advanced NLP - 20287 - CS 678 - 002",
+            "type": "Class",
+            "time": "7:20 pm - 10:00 pm",
+            "days": "M",
+            "where": "Sandbridge Hall 107",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Ziyu Yao (P)"
+        },
+        {
+            "course name": "Computer Vision - 21908 - CS 682 - DL1",
+            "type": "Class",
+            "time": "TBA",
+            "days": " ",
+            "where": "ON LINE",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Jana Kosecka (P)"
+        },
+        {
+            "course name": "Machine Learning - 15887 - CS 688 - 001",
+            "type": "Class",
+            "time": "4:30 pm - 7:10 pm",
+            "days": "W",
+            "where": "Planetary Hall 206",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Fang-Yi Yu (P)"
+        },
+        {
+            "course name": "Machine Learning - 18329 - CS 688 - 002",
+            "type": "Class",
+            "time": "1:30 pm - 4:10 pm",
+            "days": "T",
+            "where": "Krug Hall 7",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Sanmay Das (P)"
+        },
+        {
+            "course name": "SWE Real-Time Embedded Systm - 21913 - CS 692 - 001",
+            "type": "Class",
+            "time": "4:30 pm - 7:10 pm",
+            "days": "W",
+            "where": "Horizon Hall 1014",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Robert Pettit (P)"
+        },
+        {
+            "course name": "SWE Real-Time Embedded Systm - 21914 - CS 692 - 002",
+            "type": "Class",
+            "time": "4:30 pm - 7:10 pm",
+            "days": "T",
+            "where": "Horizon Hall 2008",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Robert Pettit (P)"
+        },
+        {
+            "course name": "Network Security - 22136 - CS 692 - 003",
+            "type": "Class",
+            "time": "4:30 pm - 7:10 pm",
+            "days": "R",
+            "where": "Nguyen Engineering Building 1108",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Xinyuan Wang (P)"
+        },
+        {
+            "course name": "Linux Kernel Internals - 22581 - CS 692 - 004",
+            "type": "Class",
+            "time": "7:20 pm - 10:00 pm",
+            "days": "M",
+            "where": "Horizon Hall 1008",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Xiaokuan Zhang (P)"
+        },
+        {
+            "course name": "Advanced Computer Architecture - 22951 - CS 695 - 001",
+            "type": "Class",
+            "time": "4:30 pm - 7:10 pm",
+            "days": "R",
+            "where": "Exploratory Hall L003",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Lishan Yang (P)"
+        },
+        {
+            "course name": "Deep Learning - 13516 - CS 747 - 001",
+            "type": "Class",
+            "time": "4:30 pm - 7:10 pm",
+            "days": "T",
+            "where": "Planetary Hall 206",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "TBA"
+        },
+        {
+            "course name": "Advanced Machine Learning - 22765 - CS 782 - 001",
+            "type": "Class",
+            "time": "1:30 pm - 2:45 pm",
+            "days": "TR",
+            "where": "Horizon Hall 1008",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Mingrui Liu (P)"
+        },
+        {
+            "course name": "Advanced Machine Learning - 22762 - CS 782 - DL1",
+            "type": "Class",
+            "time": "4:30 pm - 7:10 pm",
+            "days": "T",
+            "where": "ON LINE",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Daniel Barbara (P)"
+        },
+        {
+            "course name": "Decision Guidance Systems - 21899 - CS 787 - 001",
+            "type": "Class",
+            "time": "4:30 pm - 7:10 pm",
+            "days": "M",
+            "where": "Lecture Hall 2",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Lecture",
+            "instructor": "Alexander Brodsky (P)"
+        },
+        {
+            "course name": "Computer Science Colloquium - 10258 - CS 800 - 001",
+            "type": "Class",
+            "time": "7:30 am - 8:45 am",
+            "days": "F",
+            "where": "Blueridge Hall 129",
+            "date range": "Jan 16, 2024 - May 09, 2024",
+            "schedule type": "Seminar",
+            "instructor": "TBA"
+        }
+    ]
+}

@@ -22,18 +22,18 @@ class Course {
     * I'm including instructor for now
     */
     constructor(instructor,title,crn,dcode,cno,section,type,time,days,where,date_range,schedule_type) {
-        this.instructor = instructor;
-        this.title = title;
-        this.crn = crn;
-        this.dcode = dcode;
-        this.cno = cno;
-        this.section = section;
-        this.type = type;
-        this.time = time;
-        this.days = days;
-        this.where = where;
-        this.date_range = date_range;
-        this.schedule_type = schedule_type;
+        this._instructor = instructor;
+        this._title = title;
+        this._crn = crn;
+        this._dcode = dcode;
+        this._cno = cno;
+        this._section = section;
+        this._type = type;
+        this._time = time;
+        this._days = days;
+        this._where = where;
+        this._date_range = date_range;
+        this._schedule_type = schedule_type;
     }
 
     // Getters
@@ -128,5 +128,6 @@ class Course {
     setScheduleType(schedule_type) {
         this._schedule_type = schedule_type;
     }
-
 }
+
+module.exports = Course;
