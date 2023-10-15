@@ -1,10 +1,10 @@
 const scraperObject = {
     url: 'https://patriotweb.gmu.edu/pls/prod/bwckschd.p_disp_dyn_sched',
 
-    myTest: function() {
-      console.log("Testing...");  
-    },
-
+    /**
+     * Get to Department Page (hardcoded to be CS for right now)
+     * @returns page object of current page
+     */
     async setupPage() {
         let page = await browser.newPage();
         console.log('Accessing ' + this.url);
@@ -31,6 +31,11 @@ const scraperObject = {
         return page;
     },
 
+    /**
+     * Collects all of the course info on a certain page
+     * @param {*} browser = unused (as of right now)
+     * @returns = an array of all the course info (mapped w/ name, type, time, etc.)
+     */
     async scraper(browser) {
        let page = await scraperObject.setupPage();
 

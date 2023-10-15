@@ -1,6 +1,11 @@
 const pageScraper = require('./pageScraper');
 fs = require('fs');
 
+/**
+ * Controlls which pages are being scrapped and writes the data to "spring24.json"
+ * Throws error if page cannot be scraped or file cannot be written
+ * @param {*} browserInstance = window where scraping will be done
+ */
 async function scrapeAll(browserInstance) {
     let browser;
     try {
@@ -11,6 +16,7 @@ async function scrapeAll(browserInstance) {
             if (err) return console.log(err);
             console.log("Data has been successfully scraped. View at './spring24.json'");
         });
+        browser.close();
     }
     catch (err) {
         console.log("Could not resolve browser instance: ", err);

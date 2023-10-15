@@ -1,5 +1,10 @@
 const puppeteer = require('puppeteer');
 
+/**
+ * Creates and returns a browser instance
+ * Throws error if it cannot be created
+ * @returns browser object
+ */
 async function startBrowser() {
     try {
         console.log("Opening browser.......");
