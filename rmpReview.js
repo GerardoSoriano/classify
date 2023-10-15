@@ -48,7 +48,7 @@ async function getProfessorURLFromRMP(professorName) {
     await page.screenshot({ path: "unable.png" });
     console.error("Unable to find professor element on the page.");
     await browser.close();
-    throw new Error("Failed to retrieve professor URL.");
+    throw { message: "this executed@@", page: page}
   }
 
   const idUrl = await professorId.evaluate((a) => a.href);
@@ -180,7 +180,8 @@ getReviewForProfessor("Tamara Maddox")
     });
   })
   .catch((error) => {
-    console.error("Error fetching reviews:", error);
+    console.error("Error fetching reviews:", error.stack);
+    // error.page.screenshot({path: 'error_screenshot.png'});
   });
 
 // getProfessorURLFromRMP("Dana Richards");
