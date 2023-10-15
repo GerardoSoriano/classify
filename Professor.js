@@ -23,7 +23,7 @@ class Professor {
 
     clearClassesTaughtAndScore() {this._classesTaughtAndScore.clear();}
 
-    setClassesTaughtAndScore(classesTaughtAndScore) {this._classesTaught = classesTaught;}
+    setClassesTaughtAndScore(classesTaughtAndScore) {this._classesTaughtAndScore = classesTaughtAndScore;}
 
 }
 
