@@ -104,7 +104,7 @@ describe('scrapeFormatter', () => {
         expect(reformattedData).toEqual(reformatted);
     });
 
-    it('should return the reformatted data', () => {
+    it('should return the reformatted data2', () => {
         //runs unformatted data through the scrapeFormatter function and checks to see if the reformatted data is correctly with multiple courses, proving that the looping is working correctly
         const reformattedData2 = scrapeFormatter(data2);
         expect(reformattedData2).toEqual(reformatted2);    

@@ -121,7 +121,7 @@ describe('Course', () => {
     });
     it('should set days to be R', () =>{
         course.setDays('R');
-        expect(course.getDay()).toBe('R');
+        expect(course.getDays()).toBe('R');
     });
     
     /**
