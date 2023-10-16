@@ -79,7 +79,7 @@ function parseCoursesFromFile(filePath) {
     }
 }
 //Uses Set
-function getInstructorsFromFile(filePath, callback) {
+function getInstructorsFromFile(filePath) {
   const instructorList = new Set();
 
   fs.readFile(filePath, 'utf8', (err, fileData) => {
@@ -110,13 +110,14 @@ function getInstructorsFromFile(filePath, callback) {
       console.error("Error parsing the JSON:", parseErr);
     }
     //console.log(instructorList);
-    callback(Array.from(instructorList));
+    // callback(Array.from(instructorList));
+    return instructorList;
   });
 }
 
 
 
-const prof = getInstructorsFromFile('./patriotWeb_scraper/spring24.json', (instructors) => {console.log(instructors); });
+//const prof = getInstructorsFromFile('./patriotWeb_scraper/spring24.json', (instructors) => {console.log(instructors); });
 
 //console.log("its this one " + prof);
 
@@ -137,4 +138,4 @@ function sortProfessorsGivenCourse(professorsMap) {
   return sortedList.map(item => item.professor);
 }
 
-module.exports = { sortProfessorsGivenCourse };
+module.exports = { sortProfessorsGivenCourse, getInstructorsFromFile, parseCoursesFromFile};
