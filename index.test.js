@@ -7,6 +7,7 @@ const { describe, it, expect } = require('@jest/globals');
 describe('index', () => {
   let index;
 
+<<<<<<< HEAD
   it('should return a set of professor names', async () => {
     // Checks to see if the function resturns a set of professor names
     expect(() => index.getInstructorsFromFile('./patriotWeb_scraper/spring24.json').ToBeInstanceOf(Set));
@@ -14,6 +15,15 @@ describe('index', () => {
 
   it('should throw an error from incorrect path', async () => {
     // Checks to see if the function throws an error when given an invalid path
+=======
+  it('should return a set of professor names', () => {
+    const professorNames = index.getInstructorsFromFile('./patriotWeb_scraper/spring24.json')
+    expect(professorNames).toBeInstanceOf(Set);
+  });
+
+  it('should throw an error from incorrect path', () => {
+    // Use a callback to test if a function throws an error
+>>>>>>> e8224c5 (rmpReviews tests)
     expect(() => index.getInstructorsFromFile('./incorrectPath')).toThrow();
   });
   
