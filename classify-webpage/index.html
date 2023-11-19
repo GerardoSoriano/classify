@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professor Leaderboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+
+    main {
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    #leaderboard {
+      flex-grow: 1;
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #333;
+      color: white;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Professor Leaderboard</h1>
+  </header>
+
+  <main>
+    <div id="leaderboard">
+      <h2>Top Professors</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Rating</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Dr. John Doe</td>
+            <td>Computer Science</td>
+            <td>4.5</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Prof. Jane Smith</td>
+            <td>Physics</td>
+            <td>4.2</td>
+          </tr>
+          <!-- Add more rows as needed -->
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2023 Professor Leaderboard
+  </footer>
+
+</body>
+</html>
