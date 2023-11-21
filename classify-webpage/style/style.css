@@ -1,0 +1,87 @@
+body {
+    font-family: 'Fredoka', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #305dbf;
+}
+
+header {
+    background-color: #0f3996;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.bar{
+    margin-top: 10px;
+    flex-direction: column;
+    display: flex;
+    margin-left: 30%;
+    margin-right: 30%;
+    height: 40px;
+    border-radius: 40px;
+    border-style:solid;
+}
+
+.options {
+    margin: 10px;
+    height: 30px;
+}
+
+.bar > input {
+    margin: 1em;
+    height: 30px;
+    border-style: unset;
+}
+
+input:focus {
+    outline: none;
+}
+
+#search-button {
+    background-color: blue;
+    color: white;
+    height: 50px;
+    margin-left: 48%;
+    font: 1em Arial;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#leaderboard {
+    flex-grow: 1;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
