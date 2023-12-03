@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Roboto:wght@500&display=swap" rel="stylesheet"> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classify</title>
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Classify</h1>
+    
+  </header>
+
+  <main>
+    <div id="leaderboard">
+      <form action="https://cs.gmu.edu"> <!--server that handles searach capabilities -->
+          <div class="bar">
+              <input type="text" name="q" required>
+          </div>
+          <div class="options">
+              <input id="search-button" type="submit" name="btnK" value="Search" class = "search">
+          </div>
+
+      </form>
+      <h2>GMU Top Professors</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Rating</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Dr. John Doe</td>
+            <td>Computer Science</td>
+            <td>4.5</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Prof. Jane Smith</td>
+            <td>Physics</td>
+            <td>4.2</td>
+          </tr>
+          <!-- Add more rows as needed -->
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2023 Classify
+  </footer>
+
+</body>
+</html>

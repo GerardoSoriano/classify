@@ -1,14 +1,22 @@
+/**
+ * Testing Course.js class
+ */
+
 const Course = require('./Course');
 const { describe, it, expect } = require('@jest/globals');
 describe('Course', () => {
     let course;
   
+    //create a new instance of Course to check the getters and setters
     beforeEach(() => {
       // Create a new instance of index before each test
       course = new Course('Ahmed Bin Zaman','Principles of Computing','16565','CS','100','001','Class','3:00 pm - 4:15 pm','MW','James Buchanan Hall D023','Jan 16, 2024 - May 09, 2024','Lecture');
       
     });
 
+    /**
+     * testing the getter and setter for getInstructor() and setInstructor()
+     */
     it('should return the prof name', () =>{
         const profName = course.getInstructor();
         expect(profName).toBe('Ahmed Bin Zaman');
@@ -19,7 +27,9 @@ describe('Course', () => {
     });
     
 
-
+    /**
+     * testing getter and setter for getTitle() and setTitle()
+     */
     it('should return the class title', () =>{
         const classTitle = course.getTitle();
         expect(classTitle).toBe('Principles of Computing');
@@ -29,8 +39,9 @@ describe('Course', () => {
         expect(course.getTitle()).toBe('Intro to Statictics');
     });
     
-
-
+    /**
+     * testing getter and setter for getCrn() and setCrn()
+     */
     it('should return the crn number', () =>{
         const crn = course.getCrn();
         expect(crn).toBe('16565');
@@ -40,8 +51,9 @@ describe('Course', () => {
         expect(course.getCrn()).toBe('12345');
     });
 
-
-
+    /**
+     * testing getter and setter for getDcode() and setDcode()
+     */
     it('should return the dcode', () =>{
         const dcode = course.getDcode();
         expect(dcode).toBe('CS');
@@ -51,8 +63,9 @@ describe('Course', () => {
         expect(course.getDcode()).toBe('STAT');
     });
 
-
-
+    /**
+     * testing getter and setter for getCno() and setCno()
+     */
     it('should return the course number', () =>{
         const cNumb = course.getCno();
         expect(cNumb).toBe('100');
@@ -62,7 +75,9 @@ describe('Course', () => {
         expect(course.getCno()).toBe('101');
     });
 
-
+    /**
+     * testing getter and setter for getSection() and setSection()
+     */
     it('should return the section number', () =>{
         const secNumb = course.getSection();
         expect(secNumb).toBe('001');
@@ -73,7 +88,9 @@ describe('Course', () => {
     });
 
 
-
+    /**
+     * testing getter and setter for getType() and setType()
+     */
     it('should return the type of course', () =>{
         const type = course.getType();
         expect(type).toBe('Class');
@@ -83,7 +100,9 @@ describe('Course', () => {
         expect(course.getType()).toBe('Recitation');
     });
 
-
+    /**
+     * testing getter and setter for getTime() and setTime()
+     */
     it('should return the timings', () =>{
         const times = course.getTime();
         expect(times).toBe('3:00 pm - 4:15 pm');
@@ -93,7 +112,9 @@ describe('Course', () => {
         expect(course.getTime()).toBe('10:00 am - 10:50 am');
     });
 
-
+    /**
+     * testing getter and setter for getDays() and setDays()
+     */
     it('should return the days', () =>{
         const days = course.getDays();
         expect(days).toBe('MW');
@@ -103,7 +124,9 @@ describe('Course', () => {
         expect(course.getDays()).toBe('R');
     });
     
-
+    /**
+     * testing getter and setter for getWhere() and setWhere()
+     */
     it('should return the where the course occurs', () =>{
         const location = course.getWhere();
         expect(location).toBe('James Buchanan Hall D023');
@@ -114,8 +137,9 @@ describe('Course', () => {
     });
 
 
-
-
+    /**
+     * testing getter and setter for getDateRange() and setDateRange()
+     */
     it('should return what day the cours estarts and ends', () =>{
         const startDayEndDay = course.getDateRange();
         expect(startDayEndDay).toBe('Jan 16, 2024 - May 09, 2024');
@@ -126,6 +150,9 @@ describe('Course', () => {
     });
 
 
+    /**
+     * testing getter and setter for getScheduleType() and setSchedule()
+     */
     it('should return what day the cours estarts and ends', () =>{
         const scheduleType = course.getScheduleType();
         expect(scheduleType).toBe('Lecture');
