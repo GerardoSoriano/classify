@@ -27,8 +27,8 @@ function scrapeFormatter(data){
                     const temp = data[dept][index][key].split(' -');
                     const split = temp[2].trim().split(" ");
                     delete data[dept][index][key];
-                    data[dept][index].title = temp[0].trim();
                     data[dept][index].crn = temp[1].trim();
+                    data[dept][index].title = temp[0].trim();
                     data[dept][index].dcode = split[0].trim();
                     data[dept][index].cno = split[1];
                     data[dept][index].section = temp[3].trim();
@@ -53,7 +53,18 @@ function scrapeFormatter(data){
             }
         }
     }
+    for(const dept in data){
+        for(const index in data[dept]){
+            for(const key in data[dept][index]){
+            if(key != "crn"){
+                const replace = data[dept][index][key];
 
+                delete data[dept][index][key];
+                data[dept][index][key] = replace;
+            }
+            }
+        }
+    }
     return data;
 }
 
