@@ -59,18 +59,20 @@ describe('Page Controller', () => {
  * ********************************************************************
  */
 
-describe('Page Scraper', () => {
-    jest.setTimeout(50000);
-    let browserInstance, page, courses, rand_course = null;
+describe('Page Scraper (Happy Path using CS Dept)', () => {
+    jest.setTimeout(100000);
+    let browserInstance, data, page, rand_course = null;
     
     beforeAll(async() => {
         browserInstance = await browserObject.startBrowser();
-        page = await pageScraper.setupPage();
-        courses = await pageScraper.scraper(browserInstance);
+        data = await pageScraper.setupTerm();
         
-        // select arbitary course
-        rand = Math.floor(Math.random() * courses.length);
-        rand_course = courses[rand];
+        page = await pageScraper.setupDept(data.page, "CS");
+        cs_dept = await pageScraper.getInfo(page, pageScraper);
+
+        // select arbitary CS course
+        rand = Math.floor(Math.random() * cs_dept.length);
+        rand_course = cs_dept[rand];
 
         await timer.setTimeout(7000);
     });
@@ -95,7 +97,7 @@ describe('Page Scraper', () => {
     });
 
     it('Get Number of CS Courses', async() => {
-        expect(courses.length).toBe(175);
+        expect(cs_dept.length).toBe(172);
     });
 
     it('Get course attributes (course name, type, time, days, where, date range, schedule type, instructor)', async() => {
@@ -106,4 +108,55 @@ describe('Page Scraper', () => {
         }
     });
 
+    it('Get number of departments', async() => {
+        expect(data.options.length).toBe(150);
+    });
+});
+
+describe('Page Scraper (Multiple Table Entries using FAVS)', () => {
+    jest.setTimeout(50000);
+    let browserInstance, data, page = null;
+    
+    beforeAll(async() => {
+        browserInstance = await browserObject.startBrowser();
+        data = await pageScraper.setupTerm();
+
+        // Multiple table rows (hybrid) in FAVS 498
+        page = await pageScraper.setupDept(data.page, "FAVS");
+        favs_dept = await pageScraper.getInfo(page, pageScraper);
+        await timer.setTimeout(7000);
+    });
+
+    afterAll(() => {
+        browserInstance.close();
+    });
+
+    it('Get multiple table rows (FAVS 498 = hybrid)', async() => {
+        let course = favs_dept[favs_dept.length - 1];
+        expect(course['type'].length).toBe(7);
+    });
+});
+
+describe('Page Scraper (No Table Available using BENG)', () => {
+    jest.setTimeout(50000);
+    let browserInstance, data, page = null;
+    
+    beforeAll(async() => {
+        browserInstance = await browserObject.startBrowser();
+        data = await pageScraper.setupTerm();
+
+        // Multiple table rows (hybrid) in FAVS 498
+        page = await pageScraper.setupDept(data.page, "BENG");
+        beng_dept = await pageScraper.getInfo(page, pageScraper);
+        await timer.setTimeout(7000);
+    });
+
+    afterAll(() => {
+        browserInstance.close();
+    });
+
+    it('Get multiple table rows (BENG 999 = no section info)', async() => {
+        let course = beng_dept[beng_dept.length - 1];
+        expect(course['type'].length).toBe(0);
+    });
 });

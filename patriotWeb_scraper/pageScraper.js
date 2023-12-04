@@ -42,16 +42,18 @@ const scraperObject = {
         return page;
     },
 
+    /**
+     * Collects all of the course info on a certain page
+     * @param {*} browser = unused (as of right now)
+     * @returns = an array of all the course info (mapped w/ name, type, time, etc.)
+     */
     async getInfo(page, scraperObject) {
         // Get dept data
         console.log("in getInfo");
         const courses = await page.evaluate((scraperObject) => {
             const dept = document.querySelector(".pagebodydiv");
-            console.log("here 0");
             const courseList = dept.querySelectorAll(".ddtitle > a");
-            console.log("here 1");
             const termDesc = dept.querySelectorAll("div.pagebodydiv > table.datadisplaytable > tbody > tr > .dddefault");
-            console.log("here 2");
             var courseInfo = [];
             
             // build inner array: [name, term, description]
@@ -84,8 +86,6 @@ const scraperObject = {
                     var trs = Array.from(table.querySelectorAll("tr"));
 
                     // Get info from each row; skip headers
-                    // Only returns info from the 2nd row (if multiple rows are needed, use array)
-                    // Not necessary right now
                     for (j = 1; j < trs.length; j++) {
                         const entries = Array.from(trs[j].querySelectorAll(".dddefault"));
                         dataObj['type'].push(entries[0].innerText);
@@ -106,16 +106,14 @@ const scraperObject = {
     },
 
     /**
-     * Collects all of the course info on a certain page
-     * @param {*} browser = unused (as of right now)
-     * @returns = an array of all the course info (mapped w/ name, type, time, etc.)
+     * Main driver for PatriotWeb scraper
+     * Logic: select term ("Spring 24") -> (select deptartment -> collect data -> repeat)
+     * @param {*} browser = unused (as of right now) 
+     * @returns entire scraped data
      */
     async scraper(browser) {
         let data = await scraperObject.setupTerm();
         let scrapedData = {};
-        //console.log(data.options);
-        
-       
         
         for (i = 0; i < data.options.length; i++) {
             var dept = data.options[i];
@@ -123,14 +121,6 @@ const scraperObject = {
             scrapedData[dept] = await this.getInfo(page, scraperObject);
             await page.goBack();
         }
-        
-
-        /*
-        var dept = "BENG"
-        var page = await scraperObject.setupDept(data.page, dept);
-        scrapedData[dept] = await this.getInfo(page, scraperObject);
-        await page.goBack();
-        */
     
        return scrapedData;
     },
