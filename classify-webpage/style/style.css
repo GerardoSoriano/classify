@@ -39,11 +39,20 @@ input:focus {
 }
 
 #search-button {
-    background-color: blue;
+    background-color: #305dbf;
+    font-family: 'Fredoka', sans-serif;
+    font-size: larger;
     color: white;
     height: 50px;
-    margin-left: 48%;
-    font: 1em Arial;
+    margin-left: 43%;
+    border-radius: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+#search-button:active{
+    background-color: #0f3996;
 }
 
 main {
