@@ -46,7 +46,23 @@ let coursesWithDcodeAndCno = function(dcode, cno){
     })
 }
 
+let getInstructors = function(){
+    let params = {
+        TableName: "prof-info",
+        ProjectionExpression: "instructor"
+    };
+    docClient.scan(params, function (err, data) {
+        if (err) {
+            console.log("prof-info::getInstructors::error - " + JSON.stringify(err, null, 2));
+        }
+        else {
+            console.log("prof-info::getInstructors::success - " + JSON.stringify(data, null, 2));
+        }
+    })
+}
+
 module.exports = {
     coursesTaughtbyProf,
-    coursesWithDcodeAndCno
+    coursesWithDcodeAndCno,
+    getInstructors
 };
