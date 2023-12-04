@@ -47,19 +47,24 @@ let coursesWithDcodeAndCno = function(dcode, cno){
 }
 
 let getInstructors = function(){
-    let params = {
-        TableName: "prof-info",
-        ProjectionExpression: "instructor"
-    };
-    docClient.scan(params, function (err, data) {
-        if (err) {
-            console.log("prof-info::getInstructors::error - " + JSON.stringify(err, null, 2));
-        }
-        else {
-            console.log("prof-info::getInstructors::success - " + JSON.stringify(data, null, 2));
-        }
-    })
-}
+    return new Promise((resolve, reject) => {
+        let params = {
+            TableName: "prof-info",
+            ProjectionExpression: "instructor"
+        };
+        docClient.scan(params, function (err, data) {
+            if (err) {
+                console.log("prof-info::getInstructors::error - " + JSON.stringify(err, null, 2));
+                reject(err);
+            }
+            else {
+                const instructors = data.Items.map(item => item.instructor);
+                console.log("prof-info::getInstructors::success - " + JSON.stringify(data, null, 2));
+                resolve(instructors);
+            }
+        });
+    });
+};
 
 module.exports = {
     coursesTaughtbyProf,
