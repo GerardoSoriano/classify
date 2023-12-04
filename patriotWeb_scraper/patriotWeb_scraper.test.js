@@ -104,7 +104,9 @@ describe('Page Scraper (Happy Path using CS Dept)', () => {
         const keys = ['course name', 'type', 'time', 'days', 'where', 'date range', 'schedule type', 'instructor'];
 
         for (i = 0; i < keys.length; i++) {
-                expect(rand_course).toHaveProperty(keys[i]);
+                let key = keys[i];
+                expect(rand_course).toHaveProperty(key);
+                expect(rand_course[key]).toBeTruthy();
         }
     });
 
@@ -155,8 +157,9 @@ describe('Page Scraper (No Table Available using BENG)', () => {
         browserInstance.close();
     });
 
-    it('Get multiple table rows (BENG 999 = no section info)', async() => {
+    it('No table rows (BENG 999 = no section info)', async() => {
         let course = beng_dept[beng_dept.length - 1];
         expect(course['type'].length).toBe(0);
+        expect(course['course name']).toBeTruthy();
     });
 });
