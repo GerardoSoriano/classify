@@ -1,5 +1,6 @@
 "use strict";
 const puppeteer = require("puppeteer");
+const fs = require('fs'); 
 const Review = require("./Review");
 
 const BASE_URL = "https://www.ratemyprofessors.com/";
@@ -8,8 +9,9 @@ const POPUP_CLOSE_BUTTON =
 
 async function launchBrowser() {
   return puppeteer.launch({
-    headless: "false",
-    args: ["--disable-popup-blocking"],
+    headless: "new",
+    args: ["--disable-setuid-sandbox"],
+    'ignoreHTTPSErrors': true
   });
 }
 
@@ -23,7 +25,10 @@ async function closePopup(page) {
 }
 
 async function getProfessorURLFromRMP(professorName) {
-    if(professorName.length === 0) {throw new Error("Professor name cannot be empty")}
+
+  if(professorName == "") {
+    throw new Error("Professor name cannot be empty");
+  }
   const browser = await launchBrowser();
   const page = await browser.newPage();
   await page.goto(`${BASE_URL}school/352`, { timeout: 60000 });
@@ -77,7 +82,8 @@ async function getReviewForProfessor(professorName) {
   const url = await getProfessorURLFromRMP(professorName);
   const browser = await launchBrowser();
   const page = await browser.newPage();
-  await page.goto(url, { timeout: 50000 });
+  // await page.goto(url, { timeout: 50000 });
+  await page.goto(url, { timeout: 60000, waitUntil: 'networkidle2' });
 
   await closePopup(page);
 
@@ -149,9 +155,9 @@ async function getReviewForProfessor(professorName) {
   return reviews;
 }
 
-getProfessorURLFromRMP("").then((link) => {
-  console.log("link is:", link);
-});
+// getProfessorURLFromRMP("").then((link) => {
+//   console.log("link is:", link);
+// });
 
 // getProfessorOverallRating("Dana Richards")
 //   .then((rating) => {
@@ -162,17 +168,58 @@ getProfessorURLFromRMP("").then((link) => {
 //     // error.page.screenshot({path: 'error_screenshot.png'});
 //   });
 
-// getReviewForProfessor("Tamara Maddox")
-//   .then((reviews) => {
-//     console.log("length: " + reviews.length);
-//     reviews.forEach(function (review) {
-//       console.log(reviews);
-//     });
-//   })
-//   .catch((error) => {
-//     console.error("Error fetching reviews:", error.stack);
-//     // error.page.screenshot({path: 'error_screenshot.png'});
-//   });
+let rev = [];
+let organizedReviews = {};
+
+
+getReviewForProfessor("Tamara Maddox")
+  .then((reviews) => {
+    console.log("length: " + reviews.length);
+    reviews.forEach(function (review) {
+      let professorName = "Tamara Maddox";
+      let course = review._class; /* Course taught by profesor */
+
+      // Check if the professor's name is already a key in the organizedReviews
+      if (!organizedReviews[professorName]) {
+        organizedReviews[professorName] = {}; // Initialize an empty object for this professor
+      }
+
+      // Check if the course already exists under the professor
+      if (!organizedReviews[professorName][course]) {
+        organizedReviews[professorName][course] = []; // Initialize an empty array for this course
+      }
+
+      // Add the review to the course
+      organizedReviews[professorName][course].push({
+        review: review._review,
+        qualityGrading: review._qualityGrading,
+        difficultyRating: review._difficultyRating,
+        labels: [review._label1, review._label2, review._label3].filter(Boolean) // Filter out any undefined labels
+      });
+      // console.log(reviews);
+      // rev.push(review);
+
+      // console.log(JSON.stringify(organizedReviews, null, 2));
+      fs.writeFile('organizedReviews.json', JSON.stringify(organizedReviews, null, 2), 'utf8', function(err) {
+        if (err) {
+          console.error("An error occurred while writing JSON Object to File.", err);
+        } else {
+          console.log("JSON file has been saved.");
+        }
+      });
+
+    });
+
+    // let last = rev[rev.length - 1]
+    // console.log("last review is: " + last._review);
+  })
+  .catch((error) => {
+    console.error("Error fetching reviews:", error.stack);
+    // error.page.screenshot({path: 'error_screenshot.png'});
+  });
+
+
+
 
 module.exports = {
   getProfessorURLFromRMP,

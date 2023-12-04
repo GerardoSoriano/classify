@@ -117,9 +117,9 @@ function getInstructorsFromFile(filePath) {
 
 
 
-//const prof = getInstructorsFromFile('./patriotWeb_scraper/spring24.json', (instructors) => {console.log(instructors); });
+// const prof = getInstructorsFromFile('./patriotWeb_scraper/spring24.json', (instructors) => {console.log(instructors); });
 
-//console.log("its this one " + prof);
+// console.log("its this one " + prof);
 
 
 /**
