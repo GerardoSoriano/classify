@@ -68,6 +68,7 @@ main {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -122,6 +123,17 @@ footer {
     text-decoration: none;
     display: block;
   }
+
+  .rating-tags{
+    font-family: 'Fredoka', sans-serif;
+    color: white;
+    font-size: larger;
+    display: flex;
+    justify-content: left;
+    padding-top: 1%;
+    padding-left: 1%;
+    gap: 20px;
+}
   
   .dropdown-content a:hover {background-color: #ddd;}
   
