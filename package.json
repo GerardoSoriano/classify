@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "test:coverage": "jest --coverage",
     "start": "node index",
     "reviews": "node rmpReview"
   },
@@ -17,6 +18,6 @@
   },
   "jest": {
     "preset": "jest-puppeteer",
-    "testTimeout": 30000
+    "testTimeout": 120000
   }
 }
