@@ -12,46 +12,94 @@ describe('scrapeFormatter', () => {
     //Creates a new variable called data and reformatted that contain an example of data to be reformatted before each test
     data = { "CS": [
         {
-            "course name": "Principles of Computing - 16565 - CS 100 - 001",
-            "type": "Class",
-            "time": "3:00 pm - 4:15 pm",
-            "days": "MW",
-            "where": "James Buchanan Hall D023",
-            "date range": "Jan 16, 2024 - May 09, 2024",
-            "schedule type": "Lecture",
-            "instructor": "Ahmed Bin Zaman (P)"
+            "course name": [
+                "Principles of Computing - 16565 - CS 100 - 001"
+            ],
+            "type": [
+                "Class"
+            ],
+            "time": [
+                "3:00 pm - 4:15 pm"
+            ],
+            "days": [
+                "MW"
+            ],
+            "where": [
+                "James Buchanan Hall D023"
+            ],
+            "date range": [
+                "Jan 16, 2024 - May 09, 2024"
+            ],
+            "schedule type": [
+                "Lecture"]
+                ,
+            "instructor": [
+                "Ahmed Bin Zaman (P)"
+            ]
         }
     ]};
 
     data2 = { "CS": [
         {
-            "course name": "Principles of Computing - 16565 - CS 100 - 001",
-            "type": "Class",
-            "time": "3:00 pm - 4:15 pm",
-            "days": "MW",
-            "where": "James Buchanan Hall D023",
-            "date range": "Jan 16, 2024 - May 09, 2024",
-            "schedule type": "Lecture",
-            "instructor": "Ahmed Bin Zaman (P)"
+            "course name": [
+                "Principles of Computing - 16565 - CS 100 - 001"
+            ],
+            "type": [
+                "Class"
+            ],
+            "time": [
+                "3:00 pm - 4:15 pm"
+            ],
+            "days": [
+                "MW"
+            ],
+            "where": [
+                "James Buchanan Hall D023"
+            ],
+            "date range": [
+                "Jan 16, 2024 - May 09, 2024"
+            ],
+            "schedule type": [
+                "Lecture"]
+                ,
+            "instructor": [
+                "Ahmed Bin Zaman (P)"
+            ]
         },
         {
-            "course name": "Principles of Computing - 19992 - CS 100 - DL2",
-            "type": "Class",
-            "time": "1:30 pm - 2:45 pm",
-            "days": "MW",
-            "where": "ON LINE",
-            "date range": "Jan 16, 2024 - May 09, 2024",
-            "schedule type": "Lecture",
-            "instructor": "Ana Loreto Gonzalez Hernandez (P)"
+            "course name": [
+                "Principles of Computing - 19992 - CS 100 - DL2"
+            ],
+            "type": [
+                "Class"
+            ],
+            "time": [
+                "1:30 pm - 2:45 pm"
+            ],
+            "days": [
+                "MW"
+            ],
+            "where": [
+                "ON LINE"
+            ],
+            "date range": [
+                "Jan 16, 2024 - May 09, 2024"
+            ],
+            "schedule type": [
+                "Lecture"
+            ],
+            "instructor": [
+                "Ana Loreto Gonzalez Hernandez (P)"
+            ]
         }
     ]};
 
     reformatted = {
         "CS": [
             {
+                "crn": "16565",
                 "instructor": "Ahmed Bin Zaman",
                 "title": "Principles of Computing",
-                "crn": "16565",
                 "dcode": "CS",
                 "cno": "100",
                 "section": "001",
@@ -67,9 +115,9 @@ describe('scrapeFormatter', () => {
     reformatted2 = {
         "CS": [
             {
+                "crn": "16565",
                 "instructor": "Ahmed Bin Zaman",
                 "title": "Principles of Computing",
-                "crn": "16565",
                 "dcode": "CS",
                 "cno": "100",
                 "section": "001",
@@ -81,9 +129,9 @@ describe('scrapeFormatter', () => {
                 "schedule type": "Lecture"
             },
             {
-                "instructor": "Ana Loreto Gonzalez Hernandez",
-                "title": "Principles of Computing",
                 "crn": "19992",
+                "instructor": "TBA",
+                "title": "Principles of Computing",
                 "dcode": "CS",
                 "cno": "100",
                 "section": "DL2",

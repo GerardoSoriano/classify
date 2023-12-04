@@ -1,22 +1,22 @@
-const fs = require('fs');
+// const fs = require('fs');
 
-const input =  process.argv;
+// const input =  process.argv;
 
-if(input[2] === undefined){
-    console.error("No file name inputted, please add the name of the json to the args");
-    process.exit();
-}
-var filePath = './'+input[2];
-const jsonData = fs.readFileSync(filePath,'utf-8');
+// if(input[2] === undefined){
+//     console.error("No file name inputted, please add the name of the json to the args");
+//     process.exit();
+// }
+// var filePath = './'+input[2];
+// const jsonData = fs.readFileSync(filePath,'utf-8');
 
-const data = JSON.parse(jsonData);
-const reformatted = scrapeFormatter(data);
+// const data = JSON.parse(jsonData);
+// const reformatted = scrapeFormatter(data);
 
-var newData = JSON.stringify(reformatted);
-fs.writeFile(filePath.substring(0,filePath.length-5)+"_formatted.json", newData, (err) => { 
-    if (err) 
-    console.log(err); 
-});
+// var newData = JSON.stringify(reformatted);
+// fs.writeFile(filePath.substring(0,filePath.length-5)+"_formatted.json", newData, (err) => { 
+//     if (err) 
+//     console.log(err); 
+// });
 
 function scrapeFormatter(data){
 
