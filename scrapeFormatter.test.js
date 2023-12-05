@@ -12,9 +12,8 @@ describe('scrapeFormatter', () => {
     //Creates a new variable called data and reformatted that contain an example of data to be reformatted before each test
     data = { "CS": [
         {
-            "course name": [
-                "Principles of Computing - 16565 - CS 100 - 001"
-            ],
+            "course name":
+                "Principles of Computing - 16565 - CS 100 - 001",
             "type": [
                 "Class"
             ],
@@ -31,8 +30,8 @@ describe('scrapeFormatter', () => {
                 "Jan 16, 2024 - May 09, 2024"
             ],
             "schedule type": [
-                "Lecture"]
-                ,
+                "Lecture"
+            ],
             "instructor": [
                 "Ahmed Bin Zaman (P)"
             ]
@@ -41,9 +40,7 @@ describe('scrapeFormatter', () => {
 
     data2 = { "CS": [
         {
-            "course name": [
-                "Principles of Computing - 16565 - CS 100 - 001"
-            ],
+            "course name": "Principles of Computing - 16565 - CS 100 - 001",
             "type": [
                 "Class"
             ],
@@ -67,9 +64,7 @@ describe('scrapeFormatter', () => {
             ]
         },
         {
-            "course name": [
-                "Principles of Computing - 19992 - CS 100 - DL2"
-            ],
+            "course name": "Principles of Computing - 19992 - CS 100 - DL2",
             "type": [
                 "Class"
             ],
@@ -89,7 +84,7 @@ describe('scrapeFormatter', () => {
                 "Lecture"
             ],
             "instructor": [
-                "Ana Loreto Gonzalez Hernandez (P)"
+                "TBA"
             ]
         }
     ]};
@@ -152,7 +147,7 @@ describe('scrapeFormatter', () => {
         expect(reformattedData).toEqual(reformatted);
     });
 
-    it('should return the reformatted data2', () => {
+    it('should return the reformatted data2, included testing for multiple entries and TBA professors', () => {
         //runs unformatted data through the scrapeFormatter function and checks to see if the reformatted data is correctly with multiple courses, proving that the looping is working correctly
         const reformattedData2 = scrapeFormatter(data2);
         expect(reformattedData2).toEqual(reformatted2);    
