@@ -31,7 +31,7 @@ async function getProfessorURLFromRMP(professorName) {
   }
   const browser = await launchBrowser();
   const page = await browser.newPage();
-  await page.goto(`${BASE_URL}school/352`, { timeout: 60000 });
+  await page.goto(`${BASE_URL}school/352`, { timeout: 300000 });
 
   const inputElement = await page.$(
     ".Search__DebouncedSearchInput-sc-10lefvq-1"
@@ -65,7 +65,7 @@ async function getProfessorOverallRating(professorName) {
   const url = await getProfessorURLFromRMP(professorName);
   const browser = await launchBrowser();
   const page = await browser.newPage();
-  await page.goto(url, { timeout: 50000 });
+  await page.goto(url, { timeout: 120000 });
 
   await closePopup(page);
 
@@ -168,55 +168,84 @@ async function getReviewForProfessor(professorName) {
 //     // error.page.screenshot({path: 'error_screenshot.png'});
 //   });
 
+
+
+
+async function processInstructors() {
+  let instructorRatings = {};
+
+  for (let i = 0; i < instructors.length; i++) {
+    const instructor = instructors[i];
+    await getProfessorOverallRating(instructor)
+      .then((rating) => {
+        instructorRatings[instructor] = rating;
+      })  
+      .catch((error) => {
+        console.error("Error fetching reviews:", error.stack);
+      });
+  }
+
+  // Write instructorRatings object to instRatings.json file
+  fs.writeFile('instRatings.json', JSON.stringify(instructorRatings, null, 2), 'utf8', function(err) {
+    if (err) {
+      console.error("An error occurred while writing JSON Object to File.", err);
+    } else {
+      console.log("instRatings.json file has been saved.");
+    }
+  });
+}
+
 let rev = [];
 let organizedReviews = {};
+const instructors = require("./instNames.json");
 
+processInstructors();
 
-getReviewForProfessor("Tamara Maddox")
-  .then((reviews) => {
-    console.log("length: " + reviews.length);
-    reviews.forEach(function (review) {
-      let professorName = "Tamara Maddox";
-      let course = review._class; /* Course taught by profesor */
+// getReviewForProfessor("Tamara Maddox")
+//   .then((reviews) => {
+//     console.log("length: " + reviews.length);
+//     reviews.forEach(function (review) {
+//       let professorName = "Tamara Maddox";
+//       let course = review._class; /* Course taught by profesor */
 
-      // Check if the professor's name is already a key in the organizedReviews
-      if (!organizedReviews[professorName]) {
-        organizedReviews[professorName] = {}; // Initialize an empty object for this professor
-      }
+//       // Check if the professor's name is already a key in the organizedReviews
+//       if (!organizedReviews[professorName]) {
+//         organizedReviews[professorName] = {}; // Initialize an empty object for this professor
+//       }
 
-      // Check if the course already exists under the professor
-      if (!organizedReviews[professorName][course]) {
-        organizedReviews[professorName][course] = []; // Initialize an empty array for this course
-      }
+//       // Check if the course already exists under the professor
+//       if (!organizedReviews[professorName][course]) {
+//         organizedReviews[professorName][course] = []; // Initialize an empty array for this course
+//       }
 
-      // Add the review to the course
-      organizedReviews[professorName][course].push({
-        review: review._review,
-        qualityGrading: review._qualityGrading,
-        difficultyRating: review._difficultyRating,
-        labels: [review._label1, review._label2, review._label3].filter(Boolean) // Filter out any undefined labels
-      });
-      // console.log(reviews);
-      // rev.push(review);
+//       // Add the review to the course
+//       organizedReviews[professorName][course].push({
+//         review: review._review,
+//         qualityGrading: review._qualityGrading,
+//         difficultyRating: review._difficultyRating,
+//         labels: [review._label1, review._label2, review._label3].filter(Boolean) // Filter out any undefined labels
+//       });
+//       // console.log(reviews);
+//       // rev.push(review);
 
-      // console.log(JSON.stringify(organizedReviews, null, 2));
-      fs.writeFile('organizedReviews.json', JSON.stringify(organizedReviews, null, 2), 'utf8', function(err) {
-        if (err) {
-          console.error("An error occurred while writing JSON Object to File.", err);
-        } else {
-          console.log("JSON file has been saved.");
-        }
-      });
+//       // console.log(JSON.stringify(organizedReviews, null, 2));
+//       fs.writeFile('organizedReviews.json', JSON.stringify(organizedReviews, null, 2), 'utf8', function(err) {
+//         if (err) {
+//           console.error("An error occurred while writing JSON Object to File.", err);
+//         } else {
+//           console.log("JSON file has been saved.");
+//         }
+//       });
 
-    });
+//     });
 
-    // let last = rev[rev.length - 1]
-    // console.log("last review is: " + last._review);
-  })
-  .catch((error) => {
-    console.error("Error fetching reviews:", error.stack);
-    // error.page.screenshot({path: 'error_screenshot.png'});
-  });
+//     // let last = rev[rev.length - 1]
+//     // console.log("last review is: " + last._review);
+//   })
+//   .catch((error) => {
+//     console.error("Error fetching reviews:", error.stack);
+//     // error.page.screenshot({path: 'error_screenshot.png'});
+//   });
 
 
 

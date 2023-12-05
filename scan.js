@@ -66,6 +66,21 @@ let getInstructors = function(){
     });
 };
 
+const fs = require('fs');
+
+getInstructors().then((instructors) => {
+    const uniqueInstructors = [...new Set(instructors)]; // Remove duplicates
+    const sortedInstructors = uniqueInstructors.sort(); // Sort alphabetically
+
+    const instNames = JSON.stringify(sortedInstructors);
+    fs.writeFile('instNames.json', instNames, (err) => {
+        if (err) {
+            console.error("Error writing to instNames.json:", err);
+        } else {
+            console.log("instNames.json has been created successfully.");
+        }
+    });
+});
 module.exports = {
     coursesTaughtbyProf,
     coursesWithDcodeAndCno,
