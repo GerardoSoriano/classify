@@ -26,6 +26,7 @@ header {
 .options {
     margin: 10px;
     height: 30px;
+    padding-bottom: 15px;
 }
 
 .bar > input {
@@ -45,10 +46,11 @@ input:focus {
     color: white;
     height: 50px;
     margin-left: 43%;
+    margin-bottom: 10px;
     border-radius: 40px;
     padding-left: 5%;
     padding-right: 5%;
-
+    
 }
 
 #search-button:active{
