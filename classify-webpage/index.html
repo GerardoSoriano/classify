@@ -4,7 +4,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Roboto:wght@500&display=swap" rel="stylesheet"> 
-  <meta charset="UTF-8">
+
+    <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Classify</title>
   <link rel="stylesheet" href="./style/style.css">
@@ -23,6 +24,8 @@
     </style>
     </head>  
     
+    
+
     <div class="dropdown">
       <button class="dropbtn">Sort by Ratings</button>
       <div class="dropdown-content">
@@ -84,11 +87,14 @@
           <div class="options">
               <input id="search-button" type="submit" name="btnK" value="Search" class = "search">
           </div>
+          <div id="scanResults"></div>
+
 
       </form>
       <h2>GMU Top Professors</h2>
       <table>
         <thead>
+          
           <tr>
             <th>Rank</th>
             <th>Name</th>
@@ -98,6 +104,7 @@
         </thead>
         <tbody>
           <tr>
+            
             <td>1</td>
             <td>Dr. John Doe</td>
             <td>Computer Science</td>
@@ -109,6 +116,14 @@
             <td>Physics</td>
             <td>4.2</td>
           </tr>
+
+          <!--<h1>DynamoDB Query Results!!!</h1>
+          <div id="scanResults"></div>-->
+
+          <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/aws-sdk@2.1215.0/dist/aws-sdk.min.js"></script>
+          <script src="./script.js"></script>
+
           <!-- Add more rows as needed -->
         </tbody>
       </table>
